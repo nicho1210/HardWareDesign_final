@@ -9,7 +9,7 @@
 Replace with your actual names before submission.
 
 - Sora 
-- Thinh 
+- Thinh Nguyen
 - Yi Chieh Huang
 - Justin
 
