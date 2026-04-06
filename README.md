@@ -90,7 +90,7 @@ Updating coefficients
 Mode selection (RGB / grayscale / edge)
 ### Alternative (Not Used but Considered)
 AXI DMA + DRAM (batch processing)
-❌ Not chosen due to:
+Not chosen due to:
 Memory bandwidth limits
 Increased latency
 
@@ -101,16 +101,16 @@ HDMI Out Subsystem
 Video DMA (VDMA)
 AXI4-Stream infrastructure
 BRAM for line buffers
-👉 Custom IP only handles core computation
+=> Custom IP only handles core computation
 
 ### Design Decisions
-✅ Use streaming pipeline (not memory-based)
+- Use streaming pipeline (not memory-based)
 
-✅ Modular design (no large monolithic block)
+- Modular design (no large monolithic block)
 
-✅ Insert IP into video pipeline
+- Insert IP into video pipeline
 
-✅ Leverage existing video subsystem for preprocessing
+- Leverage existing video subsystem for preprocessing
 
 
 ## Summary
