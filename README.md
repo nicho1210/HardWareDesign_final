@@ -1,8 +1,11 @@
 # HardWareDesign_final
 ## Project Team
-Yi-Chieh Huang
+Nicholas
+
 Sora
+
 Justin
+
 Thinh
 
 ## IP Definition (Functionality)
