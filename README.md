@@ -41,7 +41,7 @@ for each pixel (R, G, B):
 ### Video processing is highly suitable for FPGA acceleration because:
 - Massive data throughput (1080p/4K frames)
 - Pixel-level parallelism
-- Simple arithmetic operations (MAC-heavy)
+- Simple arithmetic operations (Heavy Multiplication Accumulation process)
 - CPU (PS) processing is too slow for real-time
 - DRAM bandwidth becomes bottleneck → streaming avoids this
 
