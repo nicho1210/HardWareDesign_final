@@ -22,19 +22,6 @@ Each pixel is transformed using a 3×3 matrix + bias
 2. Grayscale Conversion
 𝑌 = 0.299𝑅 + 0.587𝐺 + 0.114𝐵
 3. Optional Edge Detection
-
-## Pseudo Code
-for each pixel (R, G, B):
-    # color transform
-    R2 = c1*R + c2*G + c3*B + b1
-    G2 = c4*R + c5*G + c6*B + b2
-    B2 = c7*R + c8*G + c9*B + b3
-
-    # grayscale
-    Y = 0.299*R2 + 0.587*G2 + 0.114*B2
-
-    # optional edge detection
-    output = sobel(Y)
     
 ## IP Motivation (Why Hardware Acceleration?)
 
@@ -75,7 +62,7 @@ HDMI-In → Pixel Pack → Color Convert → [Custom IP] → Pixel Unpack → HD
 - Maintains timing and frame boundaries
 
 ## IP Interfaces
-## Streaming Interface (Main Design Choice)
+### Streaming Interface (Main Design Choice)
 AXI4-Stream
 Reason:
 Avoid DRAM bottleneck
