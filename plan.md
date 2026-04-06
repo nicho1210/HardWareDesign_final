@@ -42,7 +42,7 @@ This second milestone reuses the same input, grayscale, filtering, output, and c
 
 ---
 
-## 3. Final project objective
+## 2. Final project objective
 ### Intended functionality
 The final custom IP will accept a live video stream and produce one of several output modes in real time:
 
@@ -55,11 +55,11 @@ The final target is a **motion detection accelerator using frame differencing**,
 
 ---
 
-## 4. IP definition and mathematical operations
+## 3. IP definition and mathematical operations
 
-## 4.1 Milestone 1 operations: preprocessing pipeline
+## 3.1 Milestone 1 operations: preprocessing pipeline
 
-### 4.1.1 RGB to grayscale conversion
+### 3.1.1 RGB to grayscale conversion
 For each input pixel with channels `R`, `G`, and `B`, compute luminance:
 
 \[
@@ -74,7 +74,7 @@ Y \approx (77R + 150G + 29B) >> 8
 
 This reduces the problem from three channels to one channel and is especially useful for later motion detection.
 
-### 4.1.2 Optional denoising filter
+### 3.1.2 Denoising filter
 A small 3x3 blur will be used to reduce pixel-level noise before thresholding or motion detection:
 
 \[
@@ -88,7 +88,7 @@ G(x,y) = \frac{1}{16}
 
 This is useful because small brightness noise between consecutive frames can otherwise produce false motion.
 
-### 4.1.3 Thresholding / binary visualization
+### 3.1.3 Thresholding / Binary visualization
 For debugging and early validation, a thresholded output can be generated:
 
 \[
@@ -103,18 +103,18 @@ This is not the final motion detector, but it helps validate the grayscale, filt
 
 ---
 
-## 4.2 Milestone 2 operations: motion detection using frame differencing
+## 3.2 Milestone 2 operations: motion detection using frame differencing
 
 Let `I_t(x,y)` be the current grayscale frame and `I_{t-1}(x,y)` be the previous grayscale frame.
 
-### 4.2.1 Frame differencing
+### 3.2.1 Frame differencing
 \[
 D(x,y) = | I_t(x,y) - I_{t-1}(x,y) |
 \]
 
 This measures how much the pixel changed from one frame to the next.
 
-### 4.2.2 Motion thresholding
+### 3.2.2 Motion thresholding
 \[
 M(x,y) =
 \begin{cases}
@@ -125,10 +125,10 @@ M(x,y) =
 
 where `T_m` is a motion threshold.
 
-### 4.2.3 Optional post-processing cleanup
+### 3.2.3 Optional post-processing cleanup
 A small cleanup stage may be added to reduce isolated false positives, for example a 3x3 majority filter or morphological cleanup.
 
-### 4.2.4 Motion overlay
+### 3.2.4 Motion overlay
 The motion mask can be combined with the original video. One simple overlay method is:
 
 \[
@@ -143,7 +143,7 @@ For example, moving pixels could be shown in red while static regions retain the
 
 ---
 
-## 5. Why these operations are well suited for hardware acceleration
+## 4. Why these operations are well suited for hardware acceleration
 These operations are good candidates for programmable logic because they are:
 
 - repeated for every pixel,
@@ -156,9 +156,9 @@ The basic preprocessing stages can be designed for **one-pixel-per-clock** throu
 
 ---
 
-## 6. Python-style pseudocode
+## 5. Python-style pseudocode
 
-### 6.1 Milestone 1: preprocessing pipeline
+### 5.1 Milestone 1: preprocessing pipeline
 ```python
 for each input pixel:
     y = rgb_to_gray(r, g, b)
@@ -166,7 +166,7 @@ for each input pixel:
     out = 255 if y_filt > T else 0
 ```
 
-### 6.2 Milestone 2: motion detection pipeline
+### 5.2 Milestone 2: motion detection pipeline
 ```python
 for each pixel position (x, y):
     curr = grayscale(current_frame[x, y])
@@ -190,10 +190,10 @@ motion_mask = majority_filter_3x3(motion_mask)
 
 ---
 
-## 7. IP architecture
+## 6. IP architecture
 The design will use a **modular architecture** so that Milestone 1 modules can be reused in Milestone 2.
 
-### 7.1 Top-level interface strategy
+### 6.1 Top-level interface strategy
 The design will use a **hybrid interface model**:
 
 - **AXI4-Stream** for the live video pixel path
@@ -204,7 +204,7 @@ This approach keeps the main design compatible with the PYNQ video pipeline whil
 
 ---
 
-## 7.2 Module breakdown
+## 6.2 Module breakdown
 
 ### Module A: AXI4-Stream input adapter
 Receives video pixels and sideband signals from the PYNQ pipeline. It unpacks the AXI stream into an internal pixel representation and forwards synchronization signals needed for output.
@@ -247,7 +247,7 @@ Provides software-visible registers for:
 
 ---
 
-## 8. Build plan by milestone
+## 7. Build plan by milestone
 
 ## Milestone 1: reusable streaming video pipeline
 ### Goal
@@ -285,7 +285,7 @@ Extend the working pipeline to detect moving regions in live video.
 
 ---
 
-## 9. Host computer and PYNQ integration
+## 8. Host computer and PYNQ integration
 The host processor (PS) will configure the IP through **AXI4-Lite** registers. The live video path will remain in the programmable logic.
 
 ### Planned host/IP interaction
@@ -297,7 +297,7 @@ The host processor (PS) will configure the IP through **AXI4-Lite** registers. T
 
 ---
 
-## 10. Interface choice: AXI4-Stream or shared memory?
+## 9. Interface choice: AXI4-Stream or shared memory?
 The project will use **both**, but for different reasons:
 
 - **AXI4-Stream** is the main interface for the live video path because it matches the PYNQ video subsystem and supports low-latency real-time processing.
@@ -309,7 +309,7 @@ This is a stronger architectural description than saying only “streaming” or
 
 ---
 
-## 11. HLS design strategy
+## 10. HLS design strategy
 The implementation will use HLS-friendly practices such as:
 
 - modular functions,
@@ -354,19 +354,19 @@ void video_motion_ip(
 
 ---
 
-## 12. Verification plan
+## 11. Verification plan
 
-### 12.1 Functional verification
+### 11.1 Functional verification
 - Create a C/C++ testbench for small sample frames.
 - Compare against a Python or NumPy reference model.
 - Verify grayscale, filter, threshold, and motion-mask modes.
 
-### 12.2 Co-simulation and synthesis checks
+### 11.2 Co-simulation and synthesis checks
 - Run C simulation and RTL co-simulation in Vitis HLS.
 - Check AXI4-Stream sideband handling.
 - Inspect initiation interval, resource usage, and latency.
 
-### 12.3 Board-level testing
+### 11.3 Board-level testing
 - Integrate the IP into a PYNQ overlay.
 - Test bypass mode first.
 - Test grayscale and filtered output.
@@ -374,7 +374,7 @@ void video_motion_ip(
 
 ---
 
-## 13. Stretch goals
+## 12. Stretch goals
 If the main pipeline works early, possible extensions include:
 
 - adaptive motion thresholding,
@@ -387,7 +387,7 @@ If the main pipeline works early, possible extensions include:
 
 ---
 
-## 14. References
+## 13. References
 - PYNQ Video subsystem documentation: https://pynq.readthedocs.io/en/v2.6.1/pynq_libraries/video.html
 - AMD Vitis HLS User Guide (UG1399): AXI4-Stream interfaces and `hls::stream`
 - AMD Vitis tutorials on line buffers and sliding windows for 2D filtering
