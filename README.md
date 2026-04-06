@@ -6,7 +6,6 @@ Justin
 
 Thinh
 
-
 Nicholas
 
 ## IP Definition (Functionality)
@@ -25,6 +24,7 @@ Each pixel is transformed using a 3×3 matrix + bias
 
 ## Pseudo Code
 for each pixel (R, G, B):
+
     # color transform
     R2 = c1*R + c2*G + c3*B + b1
     G2 = c4*R + c5*G + c6*B + b2
@@ -38,7 +38,7 @@ for each pixel (R, G, B):
     
 ## IP Motivation (Why Hardware Acceleration?)
 
-###Video processing is highly suitable for FPGA acceleration because:
+### Video processing is highly suitable for FPGA acceleration because:
 - Massive data throughput (1080p/4K frames)
 - Pixel-level parallelism
 - Simple arithmetic operations (MAC-heavy)
