@@ -20,6 +20,7 @@ Each pixel is transformed using a 3×3 matrix + bias
 3. Optional Edge Detection
 
 ## Pseudo Code
+'''python
 for each pixel (R, G, B):
     # color transform
     R2 = c1*R + c2*G + c3*B + b1
@@ -31,7 +32,7 @@ for each pixel (R, G, B):
 
     # optional edge detection
     output = sobel(Y)
-
+'''
 ## IP Motivation (Why Hardware Acceleration?)
 
 ###Video processing is highly suitable for FPGA acceleration because:
