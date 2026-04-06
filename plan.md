@@ -10,7 +10,7 @@ Replace with your actual names before submission.
 
 - Sora 
 - Thinh 
-- Nicholas
+- Yi Chieh Huang
 - Justin
 
 ---
