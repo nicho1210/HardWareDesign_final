@@ -38,7 +38,7 @@ for each pixel (R, G, B):
     
 ## IP Motivation (Why Hardware Acceleration?)
 
-###Video processing is highly suitable for FPGA acceleration because:
+### Video processing is highly suitable for FPGA acceleration because:
 - Massive data throughput (1080p/4K frames)
 - Pixel-level parallelism
 - Simple arithmetic operations (MAC-heavy)
