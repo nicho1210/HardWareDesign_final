@@ -1,12 +1,13 @@
 # HardWareDesign_final
 ## Project Team
-Nicholas
-
 Sora
 
 Justin
 
 Thinh
+
+
+Nicholas
 
 ## IP Definition (Functionality)
 ### Overview
