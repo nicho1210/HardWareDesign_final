@@ -101,8 +101,11 @@ BRAM for line buffers
 
 ### Design Decisions
 ✅ Use streaming pipeline (not memory-based)
+
 ✅ Modular design (no large monolithic block)
+
 ✅ Insert IP into video pipeline
+
 ✅ Leverage existing video subsystem for preprocessing
 
 
