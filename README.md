@@ -8,7 +8,7 @@
 ## Project team
 Replace with your actual names before submission.
 
-- Sora 
+- Sora Kakigi
 - Thinh Nguyen
 - Yi Chieh Huang
 - Justin
