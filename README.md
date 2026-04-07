@@ -11,7 +11,7 @@ Replace with your actual names before submission.
 - Sora Kakigi
 - Thinh Nguyen
 - Yi Chieh Huang
-- Justin
+- Justin Lu
 
 ---
 
