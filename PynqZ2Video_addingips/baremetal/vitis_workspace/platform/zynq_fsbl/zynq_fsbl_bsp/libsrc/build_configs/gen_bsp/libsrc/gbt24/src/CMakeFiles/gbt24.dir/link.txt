@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libgbt24.a CMakeFiles/gbt24.dir/xgbt24.c.obj CMakeFiles/gbt24.dir/xgbt24_sinit.c.obj CMakeFiles/gbt24.dir/xgbt24_linux.c.obj CMakeFiles/gbt24.dir/xgbt24_g.c.obj
+C:/Xilinx_vitis/Vitis/2023.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib.exe libgbt24.a

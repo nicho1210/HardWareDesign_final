@@ -1,0 +1,414 @@
+
+*** Running vivado
+    with args -log video_out_pynq_z2_gbt24_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source video_out_pynq_z2_gbt24_0_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source video_out_pynq_z2_gbt24_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 473.277 ; gain = 179.133
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/selected_topics_final_with_gbt24/PynqZ2Video/vivado-library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: video_out_pynq_z2_gbt24_0_0
+Command: synth_design -top video_out_pynq_z2_gbt24_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12884
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1356.266 ; gain = 439.027
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'video_out_pynq_z2_gbt24_0_0' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_gbt24_0_0/synth/video_out_pynq_z2_gbt24_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'gbt24' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24.v:9]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_gbt24_Pipeline_Row_Loop_Col_Loop' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_gbt24_Pipeline_Row_Loop_Col_Loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_mul_8ns_9ns_16_1_1' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mul_8ns_9ns_16_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_mul_8ns_9ns_16_1_1' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mul_8ns_9ns_16_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_mac_muladd_8ns_7ns_16ns_16_4_1' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1.v:49]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_mac_muladd_8ns_7ns_16ns_16_4_1' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1.v:49]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_mac_muladd_8ns_5ns_16ns_16_4_1' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1.v:49]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_mac_muladd_8ns_5ns_16ns_16_4_1' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1.v:49]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_flow_control_loop_pipe_sequential_init' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_flow_control_loop_pipe_sequential_init' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_gbt24_Pipeline_Row_Loop_Col_Loop' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_gbt24_Pipeline_Row_Loop_Col_Loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_CTRL_s_axi' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_CTRL_s_axi.v:9]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_CTRL_s_axi.v:232]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_CTRL_s_axi' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_CTRL_s_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_mul_32ns_32ns_64_1_1' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mul_32ns_32ns_64_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_mul_32ns_32ns_64_1_1' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mul_32ns_32ns_64_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_regslice_both' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_regslice_both.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_regslice_both' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_regslice_both.v:11]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_regslice_both__parameterized0' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_regslice_both.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_regslice_both__parameterized0' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_regslice_both.v:11]
+INFO: [Synth 8-6157] synthesizing module 'gbt24_regslice_both__parameterized1' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_regslice_both.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24_regslice_both__parameterized1' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_regslice_both.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'gbt24' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'video_out_pynq_z2_gbt24_0_0' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_gbt24_0_0/synth/video_out_pynq_z2_gbt24_0_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element ap_predicate_pred205_state6_reg was removed.  [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_gbt24_Pipeline_Row_Loop_Col_Loop.v:361]
+WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_CTRL_s_axi.v:309]
+WARNING: [Synth 8-7129] Port rst in module gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1477.062 ; gain = 559.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1477.062 ; gain = 559.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1477.062 ; gain = 559.824
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1477.062 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_gbt24_0_0/constraints/gbt24_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_gbt24_0_0/constraints/gbt24_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_gbt24_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_gbt24_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1519.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1522.855 ; gain = 3.797
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1522.855 ; gain = 605.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1522.855 ; gain = 605.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_gbt24_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1522.855 ; gain = 605.617
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'gbt24_CTRL_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'gbt24_CTRL_s_axi'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               11
+*
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'gbt24_CTRL_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                               10
+*
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'gbt24_CTRL_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1522.855 ; gain = 605.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 8     
+	               24 Bit    Registers := 9     
+	               18 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 16    
+	                2 Bit    Registers := 15    
+	                1 Bit    Registers := 87    
++---Multipliers : 
+	              33x33  Multipliers := 1     
++---Muxes : 
+	  10 Input   32 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 6     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 5     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 6     
+	   2 Input    2 Bit        Muxes := 15    
+	   4 Input    2 Bit        Muxes := 14    
+	   2 Input    1 Bit        Muxes := 31    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3936] Found unconnected internal register 'grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg' and it is trimmed from '44' to '16' bits. [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1.v:41]
+WARNING: [Synth 8-3936] Found unconnected internal register 'grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/m_reg_reg' and it is trimmed from '43' to '16' bits. [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1.v:34]
+WARNING: [Synth 8-3936] Found unconnected internal register 'grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '16' bits. [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1.v:41]
+WARNING: [Synth 8-3936] Found unconnected internal register 'grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '16' bits. [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1.v:34]
+WARNING: [Synth 8-3936] Found unconnected internal register 'grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/a_reg_reg' and it is trimmed from '25' to '16' bits. [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1.v:33]
+WARNING: [Synth 8-3936] Found unconnected internal register 'grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/a_reg_reg' and it is trimmed from '25' to '16' bits. [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d531/hdl/verilog/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1.v:33]
+DSP Report: Generating DSP mul_32ns_32ns_64_1_1_U24/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: operator mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: operator mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: Generating DSP mul_32ns_32ns_64_1_1_U24/tmp_product, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: operator mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: Generating DSP mul_32ns_32ns_64_1_1_U24/tmp_product, operation Mode is: A2*B2.
+DSP Report: register mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: register mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: operator mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: operator mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: Generating DSP mul_32ns_32ns_64_1_1_U24/tmp_product, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: operator mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: operator mul_32ns_32ns_64_1_1_U24/tmp_product is absorbed into DSP mul_32ns_32ns_64_1_1_U24/tmp_product.
+DSP Report: Generating DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg, operation Mode is: (A2*(B:0x4d)')'.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/b_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/a_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg.
+DSP Report: operator grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg.
+DSP Report: Generating DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg, operation Mode is: PCIN+A''*(B:0x96).
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg.
+DSP Report: operator grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg.
+DSP Report: operator grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mul_8ns_9ns_16_1_1_U1/tmp_product is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/p_reg_reg.
+DSP Report: Generating DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg, operation Mode is: (PCIN+(A''*(B:0x1d)')')'.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/b_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg.
+DSP Report: register grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/m_reg_reg is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg.
+DSP Report: operator grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg.
+DSP Report: operator grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/m is absorbed into DSP grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_5ns_16ns_16_4_1_U3/gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1_U/p_reg_reg.
+WARNING: [Synth 8-3332] Sequential element (CTRL_s_axi_U/FSM_onehot_wstate_reg[0]) is unused and will be removed from module gbt24.
+WARNING: [Synth 8-3332] Sequential element (CTRL_s_axi_U/FSM_onehot_rstate_reg[0]) is unused and will be removed from module gbt24.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1522.855 ; gain = 605.617
+---------------------------------------------------------------------------------
+ Sort Area is  grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg_6 : 0 0 : 1987 4337 : Used 1 time 100
+ Sort Area is  grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg_6 : 0 1 : 284 4337 : Used 1 time 100
+ Sort Area is  grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/mac_muladd_8ns_7ns_16ns_16_4_1_U2/gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0_U/m_reg_reg_6 : 0 2 : 2066 4337 : Used 1 time 100
+ Sort Area is  mul_32ns_32ns_64_1_1_U24/tmp_product_0 : 0 0 : 3137 5933 : Used 1 time 0
+ Sort Area is  mul_32ns_32ns_64_1_1_U24/tmp_product_0 : 0 1 : 2796 5933 : Used 1 time 0
+ Sort Area is  mul_32ns_32ns_64_1_1_U24/tmp_product_3 : 0 0 : 2777 5436 : Used 1 time 0
+ Sort Area is  mul_32ns_32ns_64_1_1_U24/tmp_product_3 : 0 1 : 2659 5436 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++---------------------------------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                  | DSP Mapping              | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------------------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|gbt24                                        | A2*B                     | 18     | 16     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|gbt24                                        | (PCIN>>17)+A*B           | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|gbt24                                        | A2*B2                    | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|gbt24                                        | (PCIN>>17)+A2*B          | 18     | 16     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0 | (A2*(B:0x4d)')'          | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 0    | 
+|gbt24                                        | PCIN+A''*(B:0x96)        | 9      | 9      | -      | -      | 16     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1 | (PCIN+(A''*(B:0x1d)')')' | 16     | 16     | -      | -      | 16     | 2    | 1    | -    | -    | -     | 1    | 1    | 
++---------------------------------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1522.855 ; gain = 605.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1522.855 ; gain = 605.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1535.102 ; gain = 617.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1541.836 ; gain = 624.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1541.836 ; gain = 624.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1541.836 ; gain = 624.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1541.836 ; gain = 624.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1541.836 ; gain = 624.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1541.836 ; gain = 624.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                                              | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|gbt24       | grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/ap_loop_exit_ready_pp0_iter4_reg_reg      | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|gbt24       | grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/icmp_ln32_reg_383_pp0_iter4_reg_reg[0]    | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|gbt24       | grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/out_pix_keep_reg_392_pp0_iter4_reg_reg[2] | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|gbt24       | grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/out_pix_strb_reg_397_pp0_iter4_reg_reg[2] | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|gbt24       | grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/out_pix_user_reg_402_pp0_iter4_reg_reg[0] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|gbt24       | grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/out_pix_last_reg_407_pp0_iter4_reg_reg[0] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|gbt24       | grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/out_pix_id_reg_412_pp0_iter4_reg_reg[0]   | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|gbt24       | grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110/out_pix_dest_reg_417_pp0_iter4_reg_reg[0] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+---------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++---------------------------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                  | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|gbt24_mac_muladd_8ns_5ns_16ns_16_4_1_DSP48_1 | (PCIN+(A''*B)')' | 8      | 5      | -      | -      | 16     | 2    | 0    | -    | -    | -     | 1    | 1    | 
+|gbt24_mac_muladd_8ns_7ns_16ns_16_4_1_DSP48_0 | (A'*B)'          | 8      | 7      | -      | -      | 0      | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|gbt24                                        | (PCIN+A''*B)'    | 8      | 8      | -      | -      | 0      | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|gbt24                                        | A'*B'            | 17     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|gbt24                                        | PCIN>>17+A'*B'   | 15     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|gbt24                                        | A'*B'            | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|gbt24                                        | PCIN>>17+A'*B'   | 17     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++---------------------------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    38|
+|2     |DSP48E1 |     7|
+|6     |LUT1    |     2|
+|7     |LUT2    |    80|
+|8     |LUT3    |   263|
+|9     |LUT4    |    32|
+|10    |LUT5    |    76|
+|11    |LUT6    |   140|
+|12    |SRL16E  |    12|
+|13    |FDRE    |   718|
+|14    |FDSE    |     1|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1541.836 ; gain = 624.598
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1541.836 ; gain = 578.805
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1541.836 ; gain = 624.598
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1553.906 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 45 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1557.582 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: 9ce1adc9
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1557.582 ; gain = 1060.707
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1557.582 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_gbt24_0_0_synth_1/video_out_pynq_z2_gbt24_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP video_out_pynq_z2_gbt24_0_0, cache-ID = c2f43edac3200569
+INFO: [Coretcl 2-1174] Renamed 23 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1557.582 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_gbt24_0_0_synth_1/video_out_pynq_z2_gbt24_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file video_out_pynq_z2_gbt24_0_0_utilization_synth.rpt -pb video_out_pynq_z2_gbt24_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 17 15:33:28 2026...

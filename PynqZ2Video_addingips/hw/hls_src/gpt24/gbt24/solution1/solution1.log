@@ -1,0 +1,162 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 13.5ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 13.5 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 13.5ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.814 seconds; current allocated memory: 0.777 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 13.5ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 13.5 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.048 seconds; current allocated memory: 109.645 MB.
+INFO: [HLS 200-10] Analyzing design file '../gbt24/gbt24.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.795 seconds; current allocated memory: 112.195 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 1,674 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 226 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 178 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 193 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 163 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 161 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 161 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 161 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 161 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 275 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 289 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 273 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 175 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 175 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 145 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 119 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'rgb_to_gray(ap_uint<8>, ap_uint<8>, ap_uint<8>)' into 'gbt24(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, int, int, int, int, int)' (../gbt24/gbt24.cpp:17:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 9.101 seconds; current allocated memory: 114.414 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.001 seconds; current allocated memory: 114.426 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.942 seconds; current allocated memory: 119.359 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 120.941 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.062 seconds; current allocated memory: 142.875 MB.
+INFO: [XFORM 203-541] Flattening a loop nest 'Row_Loop' (../gbt24/gbt24.cpp:32:5) in function 'gbt24'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.833 seconds; current allocated memory: 145.887 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'gbt24' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'gbt24_Pipeline_Row_Loop_Col_Loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln6_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln6) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'Row_Loop_Col_Loop'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 6, loop 'Row_Loop_Col_Loop'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.429 seconds; current allocated memory: 150.512 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.276 seconds; current allocated memory: 151.859 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'gbt24' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.028 seconds; current allocated memory: 152.336 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.111 seconds; current allocated memory: 152.504 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'gbt24_Pipeline_Row_Loop_Col_Loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'gbt24_Pipeline_Row_Loop_Col_Loop' pipeline 'Row_Loop_Col_Loop' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_5ns_16ns_16_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_7ns_16ns_16_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_9ns_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'gbt24_Pipeline_Row_Loop_Col_Loop'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.338 seconds; current allocated memory: 155.566 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'gbt24' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/s_axis_video_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/s_axis_video_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/s_axis_video_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/s_axis_video_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/s_axis_video_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/s_axis_video_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/s_axis_video_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/m_axis_video_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/m_axis_video_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/m_axis_video_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/m_axis_video_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/m_axis_video_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/m_axis_video_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/m_axis_video_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/width' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/height' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/threshold' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/mode' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'gbt24/enable_blur' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'gbt24' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'width', 'height', 'threshold', 'mode', 'enable_blur' and 'return' to AXI-Lite port CTRL.
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_32ns_64_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'gbt24'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.875 seconds; current allocated memory: 158.445 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.019 seconds; current allocated memory: 162.812 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.61 seconds; current allocated memory: 169.965 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for gbt24.
+INFO: [VLOG 209-307] Generating Verilog RTL for gbt24.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 105.15 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 22.627 seconds; current allocated memory: 60.617 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 13.5ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -description {RGB888 grayscale and threshold IP}
+INFO: [HLS 200-1464] Running solution command: config_export -display_name=gbt24
+INFO: [HLS 200-1464] Running solution command: config_export -library=hls
+INFO: [HLS 200-1464] Running solution command: config_export -output=C:/selected_topics_final/PynqZ2Video/hw/ip_repo
+INFO: [HLS 200-1464] Running solution command: config_export -taxonomy=/UserIP
+INFO: [HLS 200-1464] Running solution command: config_export -vendor=user.org
+INFO: [HLS 200-1464] Running solution command: config_export -version=1.0
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 13.5 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 13.5ns.
+INFO: [HLS 200-1510] Running: config_export -description RGB888 grayscale and threshold IP -display_name gbt24 -library hls -output C:/selected_topics_final/PynqZ2Video/hw/ip_repo -taxonomy /UserIP -vendor user.org -version 1.0 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output C:/selected_topics_final/PynqZ2Video/hw/ip_repo 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file C:/selected_topics_final/PynqZ2Video/hw/ip_repo/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.166 seconds; current allocated memory: 8.309 MB.
