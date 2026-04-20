@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1'
+HD_PWD='C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

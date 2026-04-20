@@ -77,7 +77,7 @@ if {[string equal [get_filesets -quiet sim_1] ""]} {
 
 
 # Add ip repository
-set_property  ip_repo_paths  ../vivado-library [current_project]
+set_property ip_repo_paths [list ../vivado-library ./ip_repo] [current_project]
 update_ip_catalog
 
 set design_name 	$BD_name

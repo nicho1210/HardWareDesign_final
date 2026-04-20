@@ -34,7 +34,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1982821230</coreId>
+              <coreId>1635021678</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -70,7 +70,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1868915817</coreId>
+              <coreId>1701079414</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -106,7 +106,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684633135</coreId>
+              <coreId>1701079414</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>1635021678</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -178,7 +178,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684633135</coreId>
+              <coreId>1601135972</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -214,7 +214,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936617315</coreId>
+              <coreId>1868525413</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -250,7 +250,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936617315</coreId>
+              <coreId>1868915817</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -286,7 +286,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684633135</coreId>
+              <coreId>1701079414</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -322,7 +322,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>1868915817</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -358,7 +358,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>1635021678</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -394,7 +394,7 @@
               <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684633135</coreId>
+              <coreId>1868525413</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>24</bitwidth>
@@ -430,7 +430,7 @@
               <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1851880563</coreId>
+              <coreId>1769353075</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>24</bitwidth>
@@ -502,7 +502,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684633135</coreId>
+              <coreId>1635021678</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -538,7 +538,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684633135</coreId>
+              <coreId>1635021678</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -574,7 +574,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1868915817</coreId>
+              <coreId>1769353075</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -610,7 +610,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601135972</coreId>
+              <coreId>1868915817</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -646,7 +646,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936617315</coreId>
+              <coreId>1768843590</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -682,7 +682,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936617315</coreId>
+              <coreId>1162363731</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>9</bitwidth>
@@ -718,7 +718,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>1919475448</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -754,7 +754,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936617315</coreId>
+              <coreId>1768843590</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -790,7 +790,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1982821230</coreId>
+              <coreId>1517383289</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -826,7 +826,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1868915817</coreId>
+              <coreId>1528970616</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -862,7 +862,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -898,7 +898,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>1919464872</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -934,7 +934,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1851880563</coreId>
+              <coreId>1924318134</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -970,7 +970,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601135972</coreId>
+              <coreId>1919469192</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1006,7 +1006,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936617315</coreId>
+              <coreId>1162363731</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1029,7 +1029,7 @@
               <type>0</type>
               <id>32</id>
               <name>x</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1956</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -1038,20 +1038,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>2</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1956</second>
@@ -1067,7 +1067,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634625894</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1109,7 +1109,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634625894</coreId>
+              <coreId>4294967294</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1151,7 +1151,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634625894</coreId>
+              <coreId>4294967294</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1193,7 +1193,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634625894</coreId>
+              <coreId>375</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -1236,7 +1236,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634625894</coreId>
+              <coreId>4294967294</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1279,7 +1279,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>946</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1322,7 +1322,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>375</coreId>
+              <coreId>4294967294</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -1408,7 +1408,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634625894</coreId>
+              <coreId>4294967294</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>9</bitwidth>
@@ -1451,7 +1451,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967294</coreId>
+              <coreId>946</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1494,7 +1494,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634625894</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1709,7 +1709,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634625894</coreId>
+              <coreId>4294967294</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1752,7 +1752,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1914943760</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1795,7 +1795,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967294</coreId>
+              <coreId>1914937840</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1838,7 +1838,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1919302656</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1881,7 +1881,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2157293264</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -1924,7 +1924,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2156964976</coreId>
+              <coreId>1919308672</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -1967,7 +1967,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2150237664</coreId>
+              <coreId>1914062176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -2010,7 +2010,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1</coreId>
+              <coreId>1919301888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2053,7 +2053,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967294</coreId>
+              <coreId>1919316928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2096,7 +2096,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2150237664</coreId>
+              <coreId>1919312192</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2139,7 +2139,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>563</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2181,7 +2181,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2157237664</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2223,7 +2223,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2156965744</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2266,7 +2266,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2157122144</coreId>
+              <coreId>1914956000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2292,7 +2292,7 @@
               <type>0</type>
               <id>63</id>
               <name>x_write_ln1956</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1956</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -2301,20 +2301,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1956</second>
@@ -2330,7 +2330,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2156969104</coreId>
+              <coreId>1919307712</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2373,7 +2373,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1931502947</coreId>
+              <coreId>1919310912</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2398,7 +2398,7 @@
               <type>0</type>
               <id>66</id>
               <name>x_1</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1937</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -2407,20 +2407,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1937</second>
@@ -2436,7 +2436,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1768714349</coreId>
+              <coreId>1914938560</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2462,7 +2462,7 @@
               <type>0</type>
               <id>67</id>
               <name>boxVCoord_loc_1_load</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1916</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -2471,20 +2471,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1916</second>
@@ -2500,7 +2500,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1734439968</coreId>
+              <coreId>1914948160</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2526,7 +2526,7 @@
               <type>0</type>
               <id>68</id>
               <name>boxHCoord_loc_1_load</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1912</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -2535,20 +2535,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1912</second>
@@ -2564,7 +2564,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>828330837</coreId>
+              <coreId>1919326784</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2590,7 +2590,7 @@
               <type>0</type>
               <id>69</id>
               <name>icmp_ln774</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>774</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -2599,13 +2599,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>774</second>
@@ -2647,7 +2647,7 @@
               <type>0</type>
               <id>70</id>
               <name>x_2</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>774</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -2656,13 +2656,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>774</second>
@@ -2704,7 +2704,7 @@
               <type>0</type>
               <id>71</id>
               <name>br_ln774</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>774</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -2713,13 +2713,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>774</second>
@@ -2735,7 +2735,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1428307316</coreId>
+              <coreId>6</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2762,7 +2762,7 @@
               <type>0</type>
               <id>73</id>
               <name>trunc_ln774</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>774</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -2771,13 +2771,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>774</second>
@@ -2793,7 +2793,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1869182051</coreId>
+              <coreId>6</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -2818,7 +2818,7 @@
               <type>0</type>
               <id>77</id>
               <name>bckgndYUV_read</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>778</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -2827,13 +2827,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>778</second>
@@ -2875,7 +2875,7 @@
               <type>0</type>
               <id>78</id>
               <name>pixIn</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>778</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -2884,13 +2884,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>778</second>
@@ -2906,7 +2906,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1007225406</coreId>
+              <coreId>1920553304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -2931,7 +2931,7 @@
               <type>0</type>
               <id>79</id>
               <name>pixIn_5</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>778</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -2940,13 +2940,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>778</second>
@@ -2962,7 +2962,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1882141023</coreId>
+              <coreId>4</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -2990,7 +2990,7 @@
               <type>0</type>
               <id>80</id>
               <name>pixIn_6</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>778</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -2999,13 +2999,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>778</second>
@@ -3021,7 +3021,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1162363731</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -3049,7 +3049,7 @@
               <type>0</type>
               <id>81</id>
               <name>_ln780</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>780</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -3058,13 +3058,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>780</second>
@@ -3080,7 +3080,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601660975</coreId>
+              <coreId>1923268457</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3110,7 +3110,7 @@
               <type>0</type>
               <id>83</id>
               <name>or_ln1884</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1884</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3119,20 +3119,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1884</second>
@@ -3174,7 +3174,7 @@
               <type>0</type>
               <id>84</id>
               <name>icmp_ln1884</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1884</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3183,20 +3183,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1884</second>
@@ -3238,7 +3238,7 @@
               <type>0</type>
               <id>85</id>
               <name>br_ln1884</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1884</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3247,20 +3247,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1884</second>
@@ -3276,7 +3276,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>795765089</coreId>
+              <coreId>1920562376</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3303,7 +3303,7 @@
               <type>0</type>
               <id>87</id>
               <name>hDir_load</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1887</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3312,20 +3312,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1887</second>
@@ -3341,7 +3341,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1162363731</coreId>
+              <coreId>1920566264</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -3366,7 +3366,7 @@
               <type>0</type>
               <id>88</id>
               <name>br_ln1887</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1887</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3375,20 +3375,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1887</second>
@@ -3404,7 +3404,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>758395186</coreId>
+              <coreId>1923270213</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3431,7 +3431,7 @@
               <type>0</type>
               <id>90</id>
               <name>icmp_ln1889</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1889</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3440,20 +3440,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1889</second>
@@ -3495,7 +3495,7 @@
               <type>0</type>
               <id>91</id>
               <name>br_ln1889</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1889</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3504,20 +3504,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1889</second>
@@ -3533,7 +3533,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1836016416</coreId>
+              <coreId>1923275310</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3560,7 +3560,7 @@
               <type>0</type>
               <id>93</id>
               <name>hDir_write_ln1890</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1890</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3569,20 +3569,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1890</second>
@@ -3598,7 +3598,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>878654257</coreId>
+              <coreId>1920559352</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3625,7 +3625,7 @@
               <type>0</type>
               <id>94</id>
               <name>br_ln1890</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1890</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3634,20 +3634,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1890</second>
@@ -3663,7 +3663,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601467759</coreId>
+              <coreId>43</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3688,7 +3688,7 @@
               <type>0</type>
               <id>96</id>
               <name>icmp_ln1894</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1894</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3697,20 +3697,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1894</second>
@@ -3752,7 +3752,7 @@
               <type>0</type>
               <id>97</id>
               <name>br_ln1894</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1894</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3761,20 +3761,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1894</second>
@@ -3790,7 +3790,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702047546</coreId>
+              <coreId>1923271202</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3817,7 +3817,7 @@
               <type>0</type>
               <id>99</id>
               <name>hDir_write_ln1895</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1895</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3826,20 +3826,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1895</second>
@@ -3855,7 +3855,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1096045407</coreId>
+              <coreId>10</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3882,7 +3882,7 @@
               <type>0</type>
               <id>100</id>
               <name>br_ln1895</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1895</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -3891,20 +3891,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1895</second>
@@ -3920,7 +3920,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2036689696</coreId>
+              <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3962,7 +3962,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1768843590</coreId>
+              <coreId>1920568424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -3994,7 +3994,7 @@
               <type>0</type>
               <id>103</id>
               <name>vDir_load</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1899</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4003,20 +4003,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1899</second>
@@ -4032,7 +4032,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>828330837</coreId>
+              <coreId>1920561344</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -4057,7 +4057,7 @@
               <type>0</type>
               <id>104</id>
               <name>br_ln1899</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1899</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4066,20 +4066,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1899</second>
@@ -4095,7 +4095,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>639660143</coreId>
+              <coreId>1924285887</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4122,7 +4122,7 @@
               <type>0</type>
               <id>106</id>
               <name>icmp_ln1901</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1901</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4131,20 +4131,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1901</second>
@@ -4186,7 +4186,7 @@
               <type>0</type>
               <id>107</id>
               <name>br_ln1901</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1901</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4195,20 +4195,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1901</second>
@@ -4224,7 +4224,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>575620686</coreId>
+              <coreId>1920571824</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4251,7 +4251,7 @@
               <type>0</type>
               <id>109</id>
               <name>vDir_write_ln1902</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1902</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4260,20 +4260,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1902</second>
@@ -4289,7 +4289,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>840979276</coreId>
+              <coreId>12</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4316,7 +4316,7 @@
               <type>0</type>
               <id>110</id>
               <name>br_ln1902</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1902</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4325,20 +4325,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1902</second>
@@ -4354,7 +4354,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702126437</coreId>
+              <coreId>1920563128</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4379,7 +4379,7 @@
               <type>0</type>
               <id>112</id>
               <name>icmp_ln1906</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1906</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4388,20 +4388,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1906</second>
@@ -4443,7 +4443,7 @@
               <type>0</type>
               <id>113</id>
               <name>br_ln1906</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1906</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4452,20 +4452,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1906</second>
@@ -4481,7 +4481,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1886216486</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4508,7 +4508,7 @@
               <type>0</type>
               <id>115</id>
               <name>vDir_write_ln1907</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1907</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4517,20 +4517,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1907</second>
@@ -4546,7 +4546,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1597143647</coreId>
+              <coreId>1923272966</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4573,7 +4573,7 @@
               <type>0</type>
               <id>116</id>
               <name>br_ln1907</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1907</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4582,20 +4582,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1907</second>
@@ -4611,7 +4611,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>795829604</coreId>
+              <coreId>1923278086</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4653,7 +4653,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1162363731</coreId>
+              <coreId>1923273536</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -4685,7 +4685,7 @@
               <type>0</type>
               <id>119</id>
               <name>sub_ln1914</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1914</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4694,20 +4694,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1914</second>
@@ -4749,7 +4749,7 @@
               <type>0</type>
               <id>120</id>
               <name>add_ln1912</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1912</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4758,20 +4758,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1912</second>
@@ -4813,7 +4813,7 @@
               <type>0</type>
               <id>121</id>
               <name>select_ln1911</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1911</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4822,20 +4822,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1911</second>
@@ -4878,7 +4878,7 @@
               <type>0</type>
               <id>122</id>
               <name>boxHCoord_write_ln1912</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1912</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4887,20 +4887,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1912</second>
@@ -4916,7 +4916,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1868767266</coreId>
+              <coreId>11</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4942,7 +4942,7 @@
               <type>0</type>
               <id>123</id>
               <name>sub_ln1918</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1918</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -4951,20 +4951,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1918</second>
@@ -5006,7 +5006,7 @@
               <type>0</type>
               <id>124</id>
               <name>add_ln1916</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1916</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5015,20 +5015,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1916</second>
@@ -5070,7 +5070,7 @@
               <type>0</type>
               <id>125</id>
               <name>select_ln1915</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1915</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5079,20 +5079,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1915</second>
@@ -5135,7 +5135,7 @@
               <type>0</type>
               <id>126</id>
               <name>boxVCoord_write_ln1916</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1916</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5144,20 +5144,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1916</second>
@@ -5173,7 +5173,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1853169708</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5199,7 +5199,7 @@
               <type>0</type>
               <id>127</id>
               <name>boxHCoord_loc_1_write_ln1911</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1911</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5208,20 +5208,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1911</second>
@@ -5237,7 +5237,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>796159852</coreId>
+              <coreId>1920572088</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5265,7 +5265,7 @@
               <type>0</type>
               <id>128</id>
               <name>boxVCoord_loc_1_write_ln1915</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1915</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5274,20 +5274,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1915</second>
@@ -5303,7 +5303,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1634038388</coreId>
+              <coreId>1920578248</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5331,7 +5331,7 @@
               <type>0</type>
               <id>129</id>
               <name>br_ln1922</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1922</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5340,20 +5340,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1922</second>
@@ -5369,7 +5369,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1936683105</coreId>
+              <coreId>21</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5394,7 +5394,7 @@
               <type>0</type>
               <id>131</id>
               <name>boxTop</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1932</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5403,20 +5403,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1932</second>
@@ -5432,7 +5432,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>574449505</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5459,7 +5459,7 @@
               <type>0</type>
               <id>132</id>
               <name>boxLeft</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1937</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5468,20 +5468,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1937</second>
@@ -5497,7 +5497,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1869635878</coreId>
+              <coreId>1923278557</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5524,7 +5524,7 @@
               <type>0</type>
               <id>133</id>
               <name>boxRight</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1926</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5533,20 +5533,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1926</second>
@@ -5588,7 +5588,7 @@
               <type>0</type>
               <id>134</id>
               <name>boxBottom</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1928</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5597,20 +5597,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1928</second>
@@ -5652,7 +5652,7 @@
               <type>0</type>
               <id>135</id>
               <name>icmp_ln1932</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1932</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5661,20 +5661,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1932</second>
@@ -5716,7 +5716,7 @@
               <type>0</type>
               <id>136</id>
               <name>xor_ln1932</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1932</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5725,20 +5725,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1932</second>
@@ -5780,7 +5780,7 @@
               <type>0</type>
               <id>137</id>
               <name>icmp_ln1932_1</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1932</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5789,20 +5789,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1932</second>
@@ -5844,7 +5844,7 @@
               <type>0</type>
               <id>138</id>
               <name>icmp_ln1937</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1937</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5853,20 +5853,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1937</second>
@@ -5908,7 +5908,7 @@
               <type>0</type>
               <id>139</id>
               <name>xor_ln1937</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1937</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5917,20 +5917,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1937</second>
@@ -5972,7 +5972,7 @@
               <type>0</type>
               <id>140</id>
               <name>icmp_ln1937_1</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1937</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -5981,20 +5981,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1937</second>
@@ -6036,7 +6036,7 @@
               <type>0</type>
               <id>141</id>
               <name>and_ln1942_2</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1942</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -6045,20 +6045,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1942</second>
@@ -6100,7 +6100,7 @@
               <type>0</type>
               <id>142</id>
               <name>and_ln1942_1</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1942</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -6109,20 +6109,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1942</second>
@@ -6164,7 +6164,7 @@
               <type>0</type>
               <id>143</id>
               <name>and_ln1942</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1942</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -6173,20 +6173,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1942</second>
@@ -6228,7 +6228,7 @@
               <type>0</type>
               <id>144</id>
               <name>br_ln1942</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1942</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -6237,20 +6237,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1942</second>
@@ -6266,7 +6266,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>828330837</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -6293,7 +6293,7 @@
               <type>0</type>
               <id>146</id>
               <name>and_ln1947</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1947</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -6302,20 +6302,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1947</second>
@@ -6357,7 +6357,7 @@
               <type>0</type>
               <id>147</id>
               <name>pixOut_7</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1947</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -6366,20 +6366,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1947</second>
@@ -6422,7 +6422,7 @@
               <type>0</type>
               <id>148</id>
               <name>br_ln1951</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1951</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -6431,20 +6431,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1951</second>
@@ -6460,7 +6460,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>543519333</coreId>
+              <coreId>1920570304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -6485,7 +6485,7 @@
               <type>0</type>
               <id>150</id>
               <name>icmp_ln1963</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1963</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -6494,20 +6494,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1963</second>
@@ -6549,7 +6549,7 @@
               <type>0</type>
               <id>151</id>
               <name>or_ln1963</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1963</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -6558,20 +6558,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1963</second>
@@ -6613,7 +6613,7 @@
               <type>0</type>
               <id>152</id>
               <name>br_ln1963</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1963</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -6622,20 +6622,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1963</second>
@@ -6651,7 +6651,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>795829604</coreId>
+              <coreId>1923251764</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -6678,7 +6678,7 @@
               <type>0</type>
               <id>154</id>
               <name>_ln1974</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1974</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -6687,20 +6687,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1974</second>
@@ -6716,7 +6716,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1818326126</coreId>
+              <coreId>1920517768</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -6746,7 +6746,7 @@
               <type>0</type>
               <id>156</id>
               <name>select_ln1975</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1975</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -6755,20 +6755,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1975</second>
@@ -6811,7 +6811,7 @@
               <type>0</type>
               <id>157</id>
               <name>br_ln1975</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1975</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -6820,20 +6820,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1975</second>
@@ -6849,7 +6849,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>543450478</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -6874,7 +6874,7 @@
               <type>0</type>
               <id>159</id>
               <name>phi_ln1975</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1975</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -6883,20 +6883,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1975</second>
@@ -6912,7 +6912,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>543649385</coreId>
+              <coreId>1920526728</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>2</bitwidth>
@@ -6940,7 +6940,7 @@
               <type>0</type>
               <id>160</id>
               <name>zext_ln1975</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1975</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -6949,20 +6949,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1975</second>
@@ -6978,7 +6978,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1346073455</coreId>
+              <coreId>11</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -7003,7 +7003,7 @@
               <type>0</type>
               <id>161</id>
               <name>whiYuv_2_addr</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1975</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -7012,20 +7012,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1975</second>
@@ -7041,7 +7041,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1852404835</coreId>
+              <coreId>1920532888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>2</bitwidth>
@@ -7068,7 +7068,7 @@
               <type>0</type>
               <id>162</id>
               <name>whiYuv_2_load</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1974</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -7077,20 +7077,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1974</second>
@@ -7131,7 +7131,7 @@
               <type>0</type>
               <id>163</id>
               <name>br_ln1974</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1974</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -7140,20 +7140,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1974</second>
@@ -7169,7 +7169,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>997484326</coreId>
+              <coreId>1920524944</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -7211,7 +7211,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1868915817</coreId>
+              <coreId>1162363731</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -7264,7 +7264,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1517383289</coreId>
+              <coreId>1923252384</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -7317,7 +7317,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>795505264</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -7353,7 +7353,7 @@
               <type>0</type>
               <id>168</id>
               <name>pixOut_11</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1989</lineNumber>
               <contextFuncName>tpgPatternMask</contextFuncName>
@@ -7362,20 +7362,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>803</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternMask</second>
                       </first>
                       <second>1989</second>
@@ -7418,7 +7418,7 @@
               <type>0</type>
               <id>169</id>
               <name>select_ln1993</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1993</lineNumber>
               <contextFuncName>tpgPatternMask</contextFuncName>
@@ -7427,20 +7427,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>803</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternMask</second>
                       </first>
                       <second>1993</second>
@@ -7483,7 +7483,7 @@
               <type>0</type>
               <id>170</id>
               <name>p_0_2_0_0_0269699</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>778</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -7492,13 +7492,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>778</second>
@@ -7541,7 +7541,7 @@
               <type>0</type>
               <id>171</id>
               <name>pixOut_12</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>778</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -7550,13 +7550,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>778</second>
@@ -7599,7 +7599,7 @@
               <type>0</type>
               <id>172</id>
               <name>select_ln1991</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1991</lineNumber>
               <contextFuncName>tpgPatternMask</contextFuncName>
@@ -7608,20 +7608,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>803</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternMask</second>
                       </first>
                       <second>1991</second>
@@ -7664,7 +7664,7 @@
               <type>0</type>
               <id>173</id>
               <name>empty</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1947</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -7673,20 +7673,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1947</second>
@@ -7729,7 +7729,7 @@
               <type>0</type>
               <id>174</id>
               <name>p_0</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>808</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -7738,13 +7738,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>808</second>
@@ -7760,7 +7760,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>544108393</coreId>
+              <coreId>1923252741</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>24</bitwidth>
@@ -7788,7 +7788,7 @@
               <type>0</type>
               <id>175</id>
               <name>ovrlayYUV_write_ln808</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>808</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -7797,13 +7797,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>808</second>
@@ -7846,7 +7846,7 @@
               <type>0</type>
               <id>176</id>
               <name>x_write_ln1956</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1956</lineNumber>
               <contextFuncName>tpgPatternCrossHair</contextFuncName>
@@ -7855,20 +7855,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>793</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternCrossHair</second>
                       </first>
                       <second>1956</second>
@@ -7884,7 +7884,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1948280165</coreId>
+              <coreId>828330837</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -7912,7 +7912,7 @@
               <type>0</type>
               <id>177</id>
               <name>br_ln774</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>774</lineNumber>
               <contextFuncName>tpgForeground</contextFuncName>
@@ -7921,13 +7921,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>774</second>
@@ -7943,7 +7943,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1768713801</coreId>
+              <coreId>3</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -7968,7 +7968,7 @@
               <type>0</type>
               <id>179</id>
               <name>boxHCoord_loc_1_out_write_ln1912</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1912</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -7977,20 +7977,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1912</second>
@@ -8006,7 +8006,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>677670517</coreId>
+              <coreId>1920531104</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -8032,7 +8032,7 @@
               <type>0</type>
               <id>180</id>
               <name>boxVCoord_loc_1_out_write_ln1916</name>
-              <fileName>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
+              <fileName>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>1916</lineNumber>
               <contextFuncName>tpgPatternBox</contextFuncName>
@@ -8041,20 +8041,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+                  <first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgForeground</second>
                       </first>
                       <second>788</second>
                     </item>
                     <item>
                       <first>
-                        <first>C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
+                        <first>C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp</first>
                         <second>tpgPatternBox</second>
                       </first>
                       <second>1916</second>
@@ -8070,7 +8070,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1953852527</coreId>
+              <coreId>1920529112</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -8113,7 +8113,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1295780106</coreId>
+              <coreId>1923249531</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -8199,7 +8199,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1982821230</coreId>
+              <coreId>1924319192</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -8230,7 +8230,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601135972</coreId>
+              <coreId>1394632558</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -8261,7 +8261,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -8292,7 +8292,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>1919472368</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -8323,7 +8323,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601135972</coreId>
+              <coreId>1852270963</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -8354,7 +8354,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701079414</coreId>
+              <coreId>1924317299</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -8385,7 +8385,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1851880563</coreId>
+              <coreId>828330837</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -8416,7 +8416,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1031301478</coreId>
+              <coreId>1701470831</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -8447,7 +8447,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1851880563</coreId>
+              <coreId>501</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -8478,7 +8478,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684368999</coreId>
+              <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -8509,7 +8509,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601135972</coreId>
+              <coreId>537536817</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -8540,7 +8540,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819308129</coreId>
+              <coreId>2002742369</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -8571,7 +8571,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1885415013</coreId>
+              <coreId>1919472968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -8602,7 +8602,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1717924464</coreId>
+              <coreId>1919478264</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>2</bitwidth>
@@ -8633,7 +8633,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>543649385</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -8664,7 +8664,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684633135</coreId>
+              <coreId>1162363731</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>2</bitwidth>
@@ -8698,7 +8698,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>846880625</coreId>
+            <coreId>1597143647</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -8759,7 +8759,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>846880625</coreId>
+            <coreId>1597143647</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -8831,7 +8831,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2053075310</coreId>
+            <coreId>4294967292</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -8864,7 +8864,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2053075310</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -8896,7 +8896,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>846880625</coreId>
+            <coreId>4294967288</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -8928,7 +8928,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2053075310</coreId>
+            <coreId>1790340096</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -8960,7 +8960,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>846880625</coreId>
+            <coreId>1792105808</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -8992,7 +8992,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>1785003072</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9024,7 +9024,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>846880625</coreId>
+            <coreId>1096045407</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9057,7 +9057,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2053075310</coreId>
+            <coreId>4294967292</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9089,7 +9089,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9121,7 +9121,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>846880625</coreId>
+            <coreId>544501345</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9153,7 +9153,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2053075310</coreId>
+            <coreId>544501345</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9185,7 +9185,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>1162760773</coreId>
+            <coreId>1597143647</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9227,7 +9227,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2053075310</coreId>
+            <coreId>846880625</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9271,7 +9271,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>1597143647</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9304,7 +9304,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2053075310</coreId>
+            <coreId>1597143647</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9337,7 +9337,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>828330837</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9368,7 +9368,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>543649385</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9400,7 +9400,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9435,7 +9435,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9478,7 +9478,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>1162363731</coreId>
+            <coreId>544501345</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>

@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 8,
-    "calls": "4 7",
+    "calls": "4 1",
     "file": "v_tpg.cpp",
     "fileloc": 409,
     "instructions": 153,
@@ -16,19 +16,13 @@
     "total_instructions": 1463
   },
   "1": {
-    "basicblocks": 35,
-    "calls": "",
+    "basicblocks": 1,
+    "calls": "7 6 3",
     "file": "v_tpg.cpp",
-    "fileloc": 759,
-    "instructions": 164,
-    "loads": {
-      "G": 7
-    },
-    "name": "tpgForeground",
-    "stores": {
-      "G": 8
-    },
-    "total_instructions": 194
+    "fileloc": 304,
+    "instructions": 12,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 1309
   },
   "2": {
     "basicblocks": 1,
@@ -43,31 +37,6 @@
     "total_instructions": 2
   },
   "3": {
-    "basicblocks": 188,
-    "calls": "6 2",
-    "file": "v_tpg.cpp",
-    "fileloc": 536,
-    "instructions": 950,
-    "loads": {
-      "G": 103,
-      "L": 1
-    },
-    "name": "tpgBackground",
-    "stores": {
-      "G": 62
-    },
-    "total_instructions": 964
-  },
-  "4": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 222,
-    "instructions": 1,
-    "name": "reg<unsigned short>",
-    "total_instructions": 1
-  },
-  "5": {
     "basicblocks": 27,
     "calls": "",
     "file": "v_tpg.cpp",
@@ -83,7 +52,16 @@
     },
     "total_instructions": 139
   },
-  "6": {
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  },
+  "5": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
@@ -92,13 +70,35 @@
     "name": "reg<int>",
     "total_instructions": 1
   },
-  "7": {
-    "basicblocks": 1,
-    "calls": "3 1 5",
+  "6": {
+    "basicblocks": 35,
+    "calls": "",
     "file": "v_tpg.cpp",
-    "fileloc": 304,
-    "instructions": 12,
-    "name": "v_tpgHlsDataFlow",
-    "total_instructions": 1309
+    "fileloc": 759,
+    "instructions": 164,
+    "loads": {
+      "G": 7
+    },
+    "name": "tpgForeground",
+    "stores": {
+      "G": 8
+    },
+    "total_instructions": 194
+  },
+  "7": {
+    "basicblocks": 188,
+    "calls": "5 2",
+    "file": "v_tpg.cpp",
+    "fileloc": 536,
+    "instructions": 950,
+    "loads": {
+      "G": 103,
+      "L": 1
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 62
+    },
+    "total_instructions": 964
   }
 }

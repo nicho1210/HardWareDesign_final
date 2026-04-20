@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684633135</coreId>
+						<coreId>1701079414</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -58,7 +58,7 @@
 						<id>4</id>
 						<name>d_read</name>
 						<fileName>C:/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot\utils/x_hls_utils.h</fileName>
-						<fileDirectory>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</fileDirectory>
+						<fileDirectory>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</fileDirectory>
 						<lineNumber>222</lineNumber>
 						<contextFuncName>reg&amp;lt;int&amp;gt;</contextFuncName>
 						<contextNormFuncName>reg_int_s</contextNormFuncName>
@@ -66,7 +66,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+								<first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -88,7 +88,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1634625894</coreId>
+						<coreId>1913047753</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -115,7 +115,7 @@
 						<id>5</id>
 						<name>_ln227</name>
 						<fileName>C:/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot\utils/x_hls_utils.h</fileName>
-						<fileDirectory>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</fileDirectory>
+						<fileDirectory>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</fileDirectory>
 						<lineNumber>227</lineNumber>
 						<contextFuncName>reg&amp;lt;int&amp;gt;</contextFuncName>
 						<contextNormFuncName>reg_int_s</contextNormFuncName>
@@ -123,7 +123,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\selected_topics_final_saved_again\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
+								<first>C:\selected_topics_final_with_gbt24\PynqZ2Video\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_v_tpg_0_0_synth_1</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -194,7 +194,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>846880625</coreId>
+					<coreId>1597143647</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>

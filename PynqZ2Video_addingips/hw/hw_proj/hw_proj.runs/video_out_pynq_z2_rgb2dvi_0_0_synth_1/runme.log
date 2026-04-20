@@ -14,9 +14,10 @@ ECHO is off.
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source video_out_pynq_z2_rgb2dvi_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 473.891 ; gain = 179.445
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 476.199 ; gain = 184.648
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/selected_topics_final_saved_again/PynqZ2Video/vivado-library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/selected_topics_final_with_gbt24/PynqZ2Video/vivado-library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: video_out_pynq_z2_rgb2dvi_0_0
 Command: synth_design -top video_out_pynq_z2_rgb2dvi_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
@@ -26,11 +27,11 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 97652
+INFO: [Synth 8-7075] Helper process launched with PID 44800
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.902 ; gain = 439.363
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1356.863 ; gain = 438.977
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'video_out_pynq_z2_rgb2dvi_0_0' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/synth/video_out_pynq_z2_rgb2dvi_0_0.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'video_out_pynq_z2_rgb2dvi_0_0' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/synth/video_out_pynq_z2_rgb2dvi_0_0.vhd:71]
 	Parameter kGenerateSerialClk bound to: 1 - type: bool 
 	Parameter kClkPrimitive bound to: PLL - type: string 
 	Parameter kRstActiveHigh bound to: 1 - type: bool 
@@ -39,18 +40,18 @@ INFO: [Synth 8-638] synthesizing module 'video_out_pynq_z2_rgb2dvi_0_0' [c:/sele
 	Parameter kD1Swap bound to: 0 - type: bool 
 	Parameter kD2Swap bound to: 0 - type: bool 
 	Parameter kClkSwap bound to: 0 - type: bool 
-INFO: [Synth 8-3491] module 'rgb2dvi' declared at 'c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/rgb2dvi.vhd:62' bound to instance 'U0' of component 'rgb2dvi' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/synth/video_out_pynq_z2_rgb2dvi_0_0.vhd:121]
-INFO: [Synth 8-638] synthesizing module 'rgb2dvi' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/rgb2dvi.vhd:94]
-INFO: [Synth 8-638] synthesizing module 'ClockGen' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:46]
+INFO: [Synth 8-3491] module 'rgb2dvi' declared at 'c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/rgb2dvi.vhd:62' bound to instance 'U0' of component 'rgb2dvi' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/synth/video_out_pynq_z2_rgb2dvi_0_0.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'rgb2dvi' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/rgb2dvi.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'ClockGen' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:46]
 	Parameter kPolarity bound to: 1'b1 
-INFO: [Synth 8-3491] module 'ResetBridge' declared at 'c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsyncReset.vhd:63' bound to instance 'LockLostReset' of component 'ResetBridge' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:82]
-INFO: [Synth 8-638] synthesizing module 'ResetBridge' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsyncReset.vhd:72]
-INFO: [Synth 8-638] synthesizing module 'SyncAsync' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (0#1) [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (0#1) [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsyncReset.vhd:72]
-INFO: [Synth 8-3491] module 'SyncAsync' declared at 'c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:61' bound to instance 'PLL_LockSyncAsync' of component 'SyncAsync' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:90]
-INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized1' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized1' (0#1) [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:72]
+INFO: [Synth 8-3491] module 'ResetBridge' declared at 'c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsyncReset.vhd:63' bound to instance 'LockLostReset' of component 'ResetBridge' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'ResetBridge' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsyncReset.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsyncReset.vhd:72]
+INFO: [Synth 8-3491] module 'SyncAsync' declared at 'c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:61' bound to instance 'PLL_LockSyncAsync' of component 'SyncAsync' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized1' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized1' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/SyncAsync.vhd:72]
 	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
 	Parameter CLKFBOUT_MULT bound to: 20 - type: integer 
 	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
@@ -65,11 +66,11 @@ INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized1' (0#1) [
 	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
 	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
 	Parameter STARTUP_WAIT bound to: FALSE - type: string 
-INFO: [Synth 8-113] binding component instance 'DVI_ClkGenerator' to cell 'PLLE2_ADV' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:239]
-INFO: [Synth 8-256] done synthesizing module 'ClockGen' (0#1) [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:46]
-INFO: [Synth 8-638] synthesizing module 'OutputSERDES' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:76]
+INFO: [Synth 8-113] binding component instance 'DVI_ClkGenerator' to cell 'PLLE2_ADV' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:239]
+INFO: [Synth 8-256] done synthesizing module 'ClockGen' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'OutputSERDES' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:76]
 	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
-INFO: [Synth 8-113] binding component instance 'OutputBuffer' to cell 'OBUFDS' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:83]
+INFO: [Synth 8-113] binding component instance 'OutputBuffer' to cell 'OBUFDS' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:83]
 	Parameter DATA_RATE_OQ bound to: DDR - type: string 
 	Parameter DATA_RATE_TQ bound to: SDR - type: string 
 	Parameter DATA_WIDTH bound to: 10 - type: integer 
@@ -77,7 +78,7 @@ INFO: [Synth 8-113] binding component instance 'OutputBuffer' to cell 'OBUFDS' [
 	Parameter TBYTE_CTL bound to: FALSE - type: string 
 	Parameter TBYTE_SRC bound to: FALSE - type: string 
 	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-113] binding component instance 'SerializerMaster' to cell 'OSERDESE2' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:92]
+INFO: [Synth 8-113] binding component instance 'SerializerMaster' to cell 'OSERDESE2' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:92]
 	Parameter DATA_RATE_OQ bound to: DDR - type: string 
 	Parameter DATA_RATE_TQ bound to: SDR - type: string 
 	Parameter DATA_WIDTH bound to: 10 - type: integer 
@@ -85,72 +86,72 @@ INFO: [Synth 8-113] binding component instance 'SerializerMaster' to cell 'OSERD
 	Parameter TBYTE_CTL bound to: FALSE - type: string 
 	Parameter TBYTE_SRC bound to: FALSE - type: string 
 	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-113] binding component instance 'SerializerSlave' to cell 'OSERDESE2' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:135]
-INFO: [Synth 8-256] done synthesizing module 'OutputSERDES' (0#1) [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:76]
-INFO: [Synth 8-638] synthesizing module 'TMDS_Encoder' [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/TMDS_Encoder.vhd:80]
-INFO: [Synth 8-256] done synthesizing module 'TMDS_Encoder' (0#1) [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/TMDS_Encoder.vhd:80]
-INFO: [Synth 8-256] done synthesizing module 'rgb2dvi' (0#1) [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/rgb2dvi.vhd:94]
-INFO: [Synth 8-256] done synthesizing module 'video_out_pynq_z2_rgb2dvi_0_0' (0#1) [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/synth/video_out_pynq_z2_rgb2dvi_0_0.vhd:71]
-WARNING: [Synth 8-6014] Unused sequential element pLockGained_reg was removed.  [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:102]
+INFO: [Synth 8-113] binding component instance 'SerializerSlave' to cell 'OSERDESE2' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:135]
+INFO: [Synth 8-256] done synthesizing module 'OutputSERDES' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/OutputSERDES.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'TMDS_Encoder' [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/TMDS_Encoder.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'TMDS_Encoder' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/TMDS_Encoder.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'rgb2dvi' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/rgb2dvi.vhd:94]
+INFO: [Synth 8-256] done synthesizing module 'video_out_pynq_z2_rgb2dvi_0_0' (0#1) [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/synth/video_out_pynq_z2_rgb2dvi_0_0.vhd:71]
+WARNING: [Synth 8-6014] Unused sequential element pLockGained_reg was removed.  [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ipshared/d57c/src/ClockGen.vhd:102]
 WARNING: [Synth 8-7129] Port SerialClk in module TMDS_Encoder is either unconnected or has no load
 WARNING: [Synth 8-7129] Port aRst in module TMDS_Encoder is either unconnected or has no load
 WARNING: [Synth 8-7129] Port aRst_n in module rgb2dvi is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:35 . Memory (MB): peak = 1471.551 ; gain = 554.012
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1470.758 ; gain = 552.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:35 . Memory (MB): peak = 1471.551 ; gain = 554.012
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1470.758 ; gain = 552.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:35 . Memory (MB): peak = 1471.551 ; gain = 554.012
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1470.758 ; gain = 552.871
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1471.551 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1470.758 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi_ooc.xdc] for cell 'U0'
-Parsing XDC File [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'U0'
-Parsing XDC File [C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/dont_touch.xdc]
-Parsing XDC File [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'U0'
+Parsing XDC File [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'U0'
+Parsing XDC File [C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'U0'
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1569.617 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1574.496 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 The system cannot find the path specified.
 INFO: [Timing 38-2] Deriving generated clocks
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1570.000 ; gain = 0.383
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 1574.570 ; gain = 0.074
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:52 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:52 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:52 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:52 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -196,25 +197,25 @@ WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 WARNING: [Synth 8-7129] Port aRst_n in module rgb2dvi is either unconnected or has no load
 WARNING: [Synth 8-7129] Port SerialClk in module rgb2dvi is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:01:02 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:01:10 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:01:11 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:01:11 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -232,37 +233,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:01:20 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:01:20 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:01:20 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:01:20 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:01:20 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:01:20 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -293,32 +294,32 @@ Report Cell Usage:
 |14    |OBUFDS    |     4|
 +------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:01:20 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1574.570 ; gain = 656.684
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:01:15 . Memory (MB): peak = 1570.000 ; gain = 554.012
-Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:01:20 . Memory (MB): peak = 1570.000 ; gain = 652.461
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 1574.570 ; gain = 552.871
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 1574.570 ; gain = 656.684
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1570.000 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1574.570 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1570.000 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1574.570 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 The system cannot find the path specified.
 Synth Design complete | Checksum: 1123c5d1
 INFO: [Common 17-83] Releasing license: Synthesis
-45 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+46 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:29 . Memory (MB): peak = 1570.000 ; gain = 1072.258
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1570.000 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/video_out_pynq_z2_rgb2dvi_0_0.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:39 . Memory (MB): peak = 1574.570 ; gain = 1076.781
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1574.570 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/video_out_pynq_z2_rgb2dvi_0_0.dcp' has been generated.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP video_out_pynq_z2_rgb2dvi_0_0, cache-ID = 639340e59a57d87e
 INFO: [Coretcl 2-1174] Renamed 14 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1570.000 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/video_out_pynq_z2_rgb2dvi_0_0.dcp' has been generated.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1574.570 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.runs/video_out_pynq_z2_rgb2dvi_0_0_synth_1/video_out_pynq_z2_rgb2dvi_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file video_out_pynq_z2_rgb2dvi_0_0_utilization_synth.rpt -pb video_out_pynq_z2_rgb2dvi_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 17 15:19:43 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 17 15:32:42 2026...

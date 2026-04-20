@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:c:/selected_topics_final_saved_again/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_processing_system7_0_0/video_out_pynq_z2_processing_system7_0_0.xdc rfile:../../../hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_processing_system7_0_0/video_out_pynq_z2_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:inst} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/selected_topics_final_with_gbt24/PynqZ2Video/hw/hw_proj/hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_processing_system7_0_0/video_out_pynq_z2_processing_system7_0_0.xdc rfile:../../../hw_proj.gen/sources_1/bd/video_out_pynq_z2/ip/video_out_pynq_z2_processing_system7_0_0/video_out_pynq_z2_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:inst} [current_design]
 current_instance inst
 set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter clk_fpga_0 0.3
