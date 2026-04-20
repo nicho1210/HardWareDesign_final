@@ -1,5 +1,7 @@
 #ifndef VIDEO_IP_H
 #define VIDEO_IP_H
+#define MAX_ROWS 720
+#define MAX_COLS 1280
 
 #include "ap_int.h"
 #include "ap_axi_sdata.h"
@@ -29,7 +31,8 @@ struct pixel24_t {
 // Output mode
 enum video_mode_t {
     MODE_GRAY      = 0,
-    MODE_THRESHOLD = 1
+    MODE_THRESHOLD = 1,
+    MODE_MOTION    = 2
 };
 
 // ------------------------------------------------------------
@@ -62,6 +65,15 @@ void blur_3x3(
     int cols,
     int total_pixels,
     int enable
+);
+
+void motion_detect(
+    hls::stream<pixel24_t>& stream_in,
+    hls::stream<pixel24_t>& stream_out,
+    int total_pixels,
+    int rows,
+    int cols,
+    int mode
 );
 
 void threshold(

@@ -107,6 +107,51 @@ void blur_3x3(
     }
 }
 
+void motion_detect(
+    hls::stream<pixel24_t>& stream_in,
+    hls::stream<pixel24_t>& stream_out,
+    int total_pixels,
+    int rows,
+    int cols,
+    int mode
+) {
+    // Persists between calls (between frames) — HLS maps this to BRAM
+    static ap_uint<8> prev_frame[MAX_ROWS][MAX_COLS];
+    #pragma HLS resource variable=prev_frame core=RAM_2P_BRAM
+
+    int row = 0, col = 0;
+
+    for (int i = 0; i < total_pixels; i++) {
+        #pragma HLS PIPELINE II=1
+
+        pixel24_t pix = stream_in.read();
+
+        if (mode == MODE_MOTION) {
+            ap_uint<8> gray = pix.data.range(23, 16); // already grayscale from rgb2gray
+            ap_uint<8> prev = prev_frame[row][col];
+
+            // absolute difference
+            ap_int<9> diff = (ap_int<9>)gray - (ap_int<9>)prev;
+            ap_uint<8> abs_diff = (diff < 0) ? (ap_uint<8>)(-diff) : (ap_uint<8>)(diff);
+
+            // write result back into pixel (threshold stage will pass it through)
+            pix.data.range(23, 16) = abs_diff;
+            pix.data.range(15,  8) = abs_diff;
+            pix.data.range( 7,  0) = abs_diff;
+
+            // store current as previous for next frame
+            prev_frame[row][col] = gray;
+        }
+        // MODE_GRAY / MODE_THRESHOLD: pass through unchanged
+
+        stream_out.write(pix);
+
+        if (col == cols - 1) { col = 0; row++; }
+        else col++;
+    }
+}
+
+
 // ============================================================
 // mode == 0 : grayscale pass-through
 // mode == 1 : threshold to binary image
@@ -168,16 +213,20 @@ void video_motion_ip(
     hls::stream<pixel24_t> pix_in("pix_in");
     hls::stream<pixel24_t> gray_stream("gray_stream");
     hls::stream<pixel24_t> blur_stream("blur_stream");
+    hls::stream<pixel24_t> motion_stream("motion_stream");
     hls::stream<pixel24_t> out_pix("out_pix");
+    
 
     #pragma HLS STREAM variable=pix_in       depth=64
     #pragma HLS STREAM variable=gray_stream  depth=64
     #pragma HLS STREAM variable=blur_stream  depth=64
+    #pragma HLS STREAM variable=motion_stream depth=64
     #pragma HLS STREAM variable=out_pix      depth=64
 
     axis_to_pixel(in_stream, pix_in, total_pixels);
     rgb2gray(pix_in, gray_stream, total_pixels);
     blur_3x3(gray_stream, blur_stream, cols, total_pixels, filter_enable);
-    threshold(blur_stream, out_pix, total_pixels, thresh, mode);
+    motion_detect(blur_stream, motion_stream, total_pixels, rows, cols, mode);
+    threshold(motion_stream, out_pix, total_pixels, thresh, mode);
     pixel_to_axis(out_pix, out_stream, total_pixels);
 }
