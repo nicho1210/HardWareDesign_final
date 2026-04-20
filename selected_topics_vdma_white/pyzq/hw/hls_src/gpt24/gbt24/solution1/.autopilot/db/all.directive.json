@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "gbt24",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "gbt24"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/selected_topics_final/PynqZ2Video/hw/hls_src/gpt24/gbt24/solution1/csynth.tcl",
+    "sourceLine": 16,
+    "success": true
+  }
+]

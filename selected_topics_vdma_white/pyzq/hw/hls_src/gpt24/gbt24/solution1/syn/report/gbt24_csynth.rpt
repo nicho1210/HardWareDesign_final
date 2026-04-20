@@ -1,0 +1,172 @@
+
+
+================================================================
+== Vitis HLS Report for 'gbt24'
+================================================================
+* Date:           Thu Apr 16 23:17:19 2026
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        gbt24
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  13.50 ns|  9.510 ns|     3.64 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +---------------------------------------------+----------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        |                                             |                                  |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |                   Instance                  |              Module              |   min   |   max   |    min   |    max   | min | max |   Type  |
+        +---------------------------------------------+----------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        |grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110  |gbt24_Pipeline_Row_Loop_Col_Loop  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        +---------------------------------------------+----------------------------------+---------+---------+----------+----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|      2|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        0|    6|     904|    933|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|     34|    -|
+|Register         |        -|    -|     133|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    6|    1037|    969|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    2|      ~0|      1|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +---------------------------------------------+----------------------------------+---------+----+-----+-----+-----+
+    |                   Instance                  |              Module              | BRAM_18K| DSP|  FF | LUT | URAM|
+    +---------------------------------------------+----------------------------------+---------+----+-----+-----+-----+
+    |CTRL_s_axi_U                                 |CTRL_s_axi                        |        0|   0|  226|  360|    0|
+    |grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110  |gbt24_Pipeline_Row_Loop_Col_Loop  |        0|   2|  678|  553|    0|
+    |mul_32ns_32ns_64_1_1_U24                     |mul_32ns_32ns_64_1_1              |        0|   4|    0|   20|    0|
+    +---------------------------------------------+----------------------------------+---------+----+-----+-----+-----+
+    |Total                                        |                                  |        0|   6|  904|  933|    0|
+    +---------------------------------------------+----------------------------------+---------+----+-----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |                          Variable Name                          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110_m_axis_video_TREADY  |       and|   0|  0|   2|           1|           1|
+    +-----------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                                            |          |   0|  0|   2|           1|           1|
+    +-----------------------------------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------------------+----+-----------+-----+-----------+
+    |               Name               | LUT| Input Size| Bits| Total Bits|
+    +----------------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                         |  25|          5|    1|          5|
+    |s_axis_video_TREADY_int_regslice  |   9|          2|    1|          2|
+    +----------------------------------+----+-----------+-----+-----------+
+    |Total                             |  34|          7|    2|          7|
+    +----------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------------------------------+----+----+-----+-----------+
+    |                           Name                           | FF | LUT| Bits| Const Bits|
+    +----------------------------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                                                 |   4|   0|    4|          0|
+    |grp_gbt24_Pipeline_Row_Loop_Col_Loop_fu_110_ap_start_reg  |   1|   0|    1|          0|
+    |mode_read_reg_159                                         |  32|   0|   32|          0|
+    |mul_ln9_reg_169                                           |  64|   0|   64|          0|
+    |threshold_read_reg_164                                    |  32|   0|   32|          0|
+    +----------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                     | 133|   0|  133|          0|
+    +----------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------+-----+-----+------------+-----------------------+--------------+
+|      RTL Ports      | Dir | Bits|  Protocol  |     Source Object     |    C Type    |
++---------------------+-----+-----+------------+-----------------------+--------------+
+|s_axi_CTRL_AWVALID   |   in|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_AWREADY   |  out|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_AWADDR    |   in|    6|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_WVALID    |   in|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_WREADY    |  out|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_WDATA     |   in|   32|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_WSTRB     |   in|    4|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_ARVALID   |   in|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_ARREADY   |  out|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_ARADDR    |   in|    6|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_RVALID    |  out|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_RREADY    |   in|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_RDATA     |  out|   32|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_RRESP     |  out|    2|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_BVALID    |  out|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_BREADY    |   in|    1|       s_axi|                   CTRL|        scalar|
+|s_axi_CTRL_BRESP     |  out|    2|       s_axi|                   CTRL|        scalar|
+|ap_clk               |   in|    1|  ap_ctrl_hs|                  gbt24|  return value|
+|ap_rst_n             |   in|    1|  ap_ctrl_hs|                  gbt24|  return value|
+|interrupt            |  out|    1|  ap_ctrl_hs|                  gbt24|  return value|
+|s_axis_video_TDATA   |   in|   24|        axis|  s_axis_video_V_data_V|       pointer|
+|s_axis_video_TVALID  |   in|    1|        axis|  s_axis_video_V_dest_V|       pointer|
+|s_axis_video_TREADY  |  out|    1|        axis|  s_axis_video_V_dest_V|       pointer|
+|s_axis_video_TDEST   |   in|    1|        axis|  s_axis_video_V_dest_V|       pointer|
+|s_axis_video_TKEEP   |   in|    3|        axis|  s_axis_video_V_keep_V|       pointer|
+|s_axis_video_TSTRB   |   in|    3|        axis|  s_axis_video_V_strb_V|       pointer|
+|s_axis_video_TUSER   |   in|    1|        axis|  s_axis_video_V_user_V|       pointer|
+|s_axis_video_TLAST   |   in|    1|        axis|  s_axis_video_V_last_V|       pointer|
+|s_axis_video_TID     |   in|    1|        axis|    s_axis_video_V_id_V|       pointer|
+|m_axis_video_TDATA   |  out|   24|        axis|  m_axis_video_V_data_V|       pointer|
+|m_axis_video_TVALID  |  out|    1|        axis|  m_axis_video_V_dest_V|       pointer|
+|m_axis_video_TREADY  |   in|    1|        axis|  m_axis_video_V_dest_V|       pointer|
+|m_axis_video_TDEST   |  out|    1|        axis|  m_axis_video_V_dest_V|       pointer|
+|m_axis_video_TKEEP   |  out|    3|        axis|  m_axis_video_V_keep_V|       pointer|
+|m_axis_video_TSTRB   |  out|    3|        axis|  m_axis_video_V_strb_V|       pointer|
+|m_axis_video_TUSER   |  out|    1|        axis|  m_axis_video_V_user_V|       pointer|
+|m_axis_video_TLAST   |  out|    1|        axis|  m_axis_video_V_last_V|       pointer|
+|m_axis_video_TID     |  out|    1|        axis|    m_axis_video_V_id_V|       pointer|
++---------------------+-----+-----+------------+-----------------------+--------------+
+

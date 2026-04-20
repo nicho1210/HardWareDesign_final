@@ -1,0 +1,19 @@
+# Vivado / Vitis generated files
+*.log
+*.jou
+*.str
+*.tmp
+
+.Xil/
+.cache/
+build/
+dist/
+
+*.gen/
+*.runs/
+*.sim/
+ip_user_files/
+
+# optional
+*.hw
+*.ip_user_files
