@@ -166,6 +166,44 @@ printf("\n[TEST 5] MODE_MOTION top-left quadrant moved\n");
         }
     }
 }
+printf("\n[TEST 6] MODE_SOBEL vertical edge\n");
+{
+    hls::stream<axis_pixel_t> in_s, out_s;
+
+    for (int r = 0; r < ROWS; r++) {
+        for (int c = 0; c < COLS; c++) {
+            axis_pixel_t px;
+            int v = (c < 4) ? 0 : 255;
+
+            px.data.range(23,16) = v;
+            px.data.range(15, 8) = v;
+            px.data.range( 7, 0) = v;
+            px.user = (r==0 && c==0) ? 1 : 0;
+            px.last = (c==COLS-1) ? 1 : 0;
+            px.keep = 0x7; px.strb = 0x7; px.id = 0; px.dest = 0;
+            in_s.write(px);
+        }
+    }
+
+    video_motion_ip(in_s, out_s, MODE_SOBEL, 128, 0, ROWS, COLS);
+
+    for (int r = 0; r < ROWS; r++) {
+        for (int c = 0; c < COLS; c++) {
+            axis_pixel_t px = out_s.read();
+            int out_val = px.data.range(23,16);
+
+            int expected = 0;
+            if (r >= 2 && (c == 4 || c == 5)) expected = 255;
+
+            if (out_val != expected) {
+                printf("FAIL [%d,%d] expected %d got %d\n", r, c, expected, out_val);
+                errors++;
+            } else {
+                printf("OK [%d,%d] edge=%d\n", r, c, out_val);
+            }
+        }
+    }
+}
 
     printf("\n%s\n", errors==0 ? "ALL TESTS PASSED" : "SOME TESTS FAILED");
     return errors;

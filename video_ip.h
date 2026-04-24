@@ -32,7 +32,8 @@ struct pixel24_t {
 enum video_mode_t {
     MODE_GRAY      = 0,
     MODE_THRESHOLD = 1,
-    MODE_MOTION    = 2
+    MODE_MOTION    = 2,
+    MODE_SOBEL     = 3
 };
 
 // ------------------------------------------------------------
@@ -81,6 +82,14 @@ void threshold(
     hls::stream<pixel24_t>& stream_out,
     int total_pixels,
     int thresh,
+    int mode
+);
+
+void sobel_3x3(
+    hls::stream<pixel24_t>& stream_in,
+    hls::stream<pixel24_t>& stream_out,
+    int rows,
+    int cols,
     int mode
 );
 
