@@ -1,0 +1,150 @@
+
+
+================================================================
+== Synthesis Summary Report of 'gbt24'
+================================================================
++ General Information: 
+    * Date:           Thu Apr 16 23:17:19 2026
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        gbt24
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+------------+----------+-----+
+    |               Modules               | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |         |            |          |     |
+    |               & Loops               | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM |   DSP   |     FF     |    LUT   | URAM|
+    +-------------------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+------------+----------+-----+
+    |+ gbt24                              |     -|  0.34|        -|       -|         -|        -|     -|        no|     -|   6 (2%)|  1037 (~0%)|  969 (1%)|    -|
+    | + gbt24_Pipeline_Row_Loop_Col_Loop  |     -|  0.52|        -|       -|         -|        -|     -|        no|     -|  2 (~0%)|   678 (~0%)|  553 (1%)|    -|
+    |  o Row_Loop_Col_Loop                |     -|  9.85|        -|       -|         5|        1|     -|       yes|     -|        -|           -|         -|    -|
+    +-------------------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+------------+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++------------+------------+---------------+--------+----------+
+| Interface  | Data Width | Address Width | Offset | Register |
++------------+------------+---------------+--------+----------+
+| s_axi_CTRL | 32         | 6             | 16     | 0        |
++------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++------------+-------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface  | Register    | Offset | Width | Access | Description                      | Bit Fields                                                           |
++------------+-------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_CTRL | CTRL        | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_CTRL | GIER        | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_CTRL | IP_IER      | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_CTRL | IP_ISR      | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_CTRL | width       | 0x10   | 32    | W      | Data signal of width             |                                                                      |
+| s_axi_CTRL | height      | 0x18   | 32    | W      | Data signal of height            |                                                                      |
+| s_axi_CTRL | threshold   | 0x20   | 32    | W      | Data signal of threshold         |                                                                      |
+| s_axi_CTRL | mode        | 0x28   | 32    | W      | Data signal of mode              |                                                                      |
+| s_axi_CTRL | enable_blur | 0x30   | 32    | W      | Data signal of enable_blur       |                                                                      |
++------------+-------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* AXIS
++--------------+-----------+---------------+-------+-------+-----+-------+-------+--------+-------+-------+--------+
+| Interface    | Direction | Register Mode | TDATA | TDEST | TID | TKEEP | TLAST | TREADY | TSTRB | TUSER | TVALID |
++--------------+-----------+---------------+-------+-------+-----+-------+-------+--------+-------+-------+--------+
+| m_axis_video | out       | both          | 24    | 1     | 1   | 3     | 1     | 1      | 3     | 1     | 1      |
+| s_axis_video | in        | both          | 24    | 1     | 1   | 3     | 1     | 1      | 3     | 1     | 1      |
++--------------+-----------+---------------+-------+-------+-----+-------+-------+--------+-------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++--------------+-----------+---------------------------------------------------------+
+| Argument     | Direction | Datatype                                                |
++--------------+-----------+---------------------------------------------------------+
+| s_axis_video | in        | stream<hls::axis<ap_uint<24>, 1, 1, 1, '8', false>, 0>& |
+| m_axis_video | out       | stream<hls::axis<ap_uint<24>, 1, 1, 1, '8', false>, 0>& |
+| width        | in        | int                                                     |
+| height       | in        | int                                                     |
+| threshold    | in        | int                                                     |
+| mode         | in        | int                                                     |
+| enable_blur  | in        | int                                                     |
++--------------+-----------+---------------------------------------------------------+
+
+* SW-to-HW Mapping
++--------------+--------------+-----------+---------------------------------------+
+| Argument     | HW Interface | HW Type   | HW Info                               |
++--------------+--------------+-----------+---------------------------------------+
+| s_axis_video | s_axis_video | interface |                                       |
+| m_axis_video | m_axis_video | interface |                                       |
+| width        | s_axi_CTRL   | register  | name=width offset=0x10 range=32       |
+| height       | s_axi_CTRL   | register  | name=height offset=0x18 range=32      |
+| threshold    | s_axi_CTRL   | register  | name=threshold offset=0x20 range=32   |
+| mode         | s_axi_CTRL   | register  | name=mode offset=0x28 range=32        |
+| enable_blur  | s_axi_CTRL   | register  | name=enable_blur offset=0x30 range=32 |
++--------------+--------------+-----------+---------------------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------------------+-----+--------+-----------+-----+-----------+---------+
+| Name                                 | DSP | Pragma | Variable  | Op  | Impl      | Latency |
++--------------------------------------+-----+--------+-----------+-----+-----------+---------+
+| + gbt24                              | 6   |        |           |     |           |         |
+|   mul_32ns_32ns_64_1_1_U24           | 4   |        | mul_ln9   | mul | auto      | 0       |
+|  + gbt24_Pipeline_Row_Loop_Col_Loop  | 2   |        |           |     |           |         |
+|    add_ln32_fu_192_p2                |     |        | add_ln32  | add | fabric    | 0       |
+|    mac_muladd_8ns_7ns_16ns_16_4_1_U2 | 1   |        | mul_ln6   | mul | dsp_slice | 3       |
+|    mul_8ns_9ns_16_1_1_U1             |     |        | mul_ln6_1 | mul | auto      | 0       |
+|    mac_muladd_8ns_7ns_16ns_16_4_1_U2 | 1   |        | add_ln6   | add | dsp_slice | 3       |
+|    mac_muladd_8ns_5ns_16ns_16_4_1_U3 | 1   |        | mul_ln6_2 | mul | dsp_slice | 3       |
+|    mac_muladd_8ns_5ns_16ns_16_4_1_U3 | 1   |        | add_ln6_1 | add | dsp_slice | 3       |
++--------------------------------------+-----+--------+-----------+-----+-----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++----------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name           | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                |           |           |      |      |        |          |      |         | Banks            |
++----------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + gbt24        |           |           | 0    | 0    |        |          |      |         |                  |
+|   CTRL_s_axi_U | interface | s_axilite |      |      |        |          |      |         |                  |
++----------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+----------------------------------------+----------------------------------------------+
+| Type      | Options                                | Location                                     |
++-----------+----------------------------------------+----------------------------------------------+
+| interface | axis port=s_axis_video                 | ../gbt24/gbt24.cpp:18 in gbt24, s_axis_video |
+| interface | axis port=m_axis_video                 | ../gbt24/gbt24.cpp:19 in gbt24, m_axis_video |
+| interface | s_axilite port=width bundle=CTRL       | ../gbt24/gbt24.cpp:21 in gbt24, width        |
+| interface | s_axilite port=height bundle=CTRL      | ../gbt24/gbt24.cpp:22 in gbt24, height       |
+| interface | s_axilite port=threshold bundle=CTRL   | ../gbt24/gbt24.cpp:23 in gbt24, threshold    |
+| interface | s_axilite port=mode bundle=CTRL        | ../gbt24/gbt24.cpp:24 in gbt24, mode         |
+| interface | s_axilite port=enable_blur bundle=CTRL | ../gbt24/gbt24.cpp:25 in gbt24, enable_blur  |
+| interface | s_axilite port=return bundle=CTRL      | ../gbt24/gbt24.cpp:26 in gbt24, return       |
+| pipeline  | II=1                                   | ../gbt24/gbt24.cpp:35 in gbt24               |
++-----------+----------------------------------------+----------------------------------------------+
+
+

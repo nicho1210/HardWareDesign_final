@@ -1,0 +1,17 @@
+{
+  "0": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "gbt24.cpp",
+    "fileloc": 9,
+    "instructions": 224,
+    "loads": {
+      "L": 21
+    },
+    "name": "gbt24",
+    "stores": {
+      "L": 21
+    },
+    "total_instructions": 273
+  }
+}

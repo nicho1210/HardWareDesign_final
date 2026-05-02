@@ -1,0 +1,17 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../gbt24/tb_gbt24.cpp in debug mode
+   Compiling ../../../../../gbt24/gbt24.cpp in debug mode
+   Generating csim.exe
+pix[0] = 0, 0, 0 user=1 last=0
+pix[1] = 255, 255, 255 user=0 last=0
+pix[2] = 0, 0, 0 user=0 last=0
+pix[3] = 255, 255, 255 user=0 last=1
+pix[4] = 0, 0, 0 user=0 last=0
+pix[5] = 255, 255, 255 user=0 last=0
+pix[6] = 0, 0, 0 user=0 last=0
+pix[7] = 0, 0, 0 user=0 last=1
+Testbench finished.
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 8
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

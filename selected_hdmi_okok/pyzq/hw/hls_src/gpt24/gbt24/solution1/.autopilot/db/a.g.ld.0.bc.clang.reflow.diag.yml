@@ -1,0 +1,14 @@
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../gbt24/gbt24.cpp, Line: 17, Column: 0 }
+Function:        _Z5gbt24RN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEES6_iiiii
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rgb_to_gray(ap_uint<8>, ap_uint<8>, ap_uint<8>)'
+    DebugLoc:        { File: ../gbt24/gbt24.cpp, Line: 3, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'gbt24(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, int, int, int, int, int)'
+    DebugLoc:        { File: ../gbt24/gbt24.cpp, Line: 17, Column: 0 }
+  - String:          ''''
+...

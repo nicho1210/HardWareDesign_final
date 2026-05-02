@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\selected_hdmi_okok\pyzq\hw\hw_proj\hw_proj.runs\video_out_pynq_z2_system_ila_2_0_synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

@@ -1,0 +1,63 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<42, true>::ap_int_base<40, true>(ap_int_base<40, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<41, true>::ap_int_base<40, true>(ap_int_base<40, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<41, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx_vitis/Vitis_HLS/2023.2/common/technology/autopilot\etc/ap_common.h" line="515" pragmaType="inline" parentfunction="_ZN8ssdm_intILi40ELb1EEC2EDq40_i" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<40>::ap_int<40, true>(ap_int_base<40, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, true>::RType<8, false>::mult operator*<32, true, 8, false>(ap_int_base<32, true> const&, ap_int_base<8, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<42, true>::ap_int_base<41, true>(ap_int_base<41, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<40, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx_vitis/Vitis_HLS/2023.2/common/technology/autopilot\etc/ap_common.h" line="515" pragmaType="inline" parentfunction="_ZN8ssdm_intILi42ELb1EEC2EDq42_i" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<40, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<8, false>::ap_int_base<24, false>(ap_range_ref<24, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<41>::ap_int<41, true>(ap_int_base<41, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<24, false>::ap_range_ref(ap_int_base<24, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<40, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx_vitis/Vitis_HLS/2023.2/common/technology/autopilot\etc/ap_common.h" line="515" pragmaType="inline" parentfunction="_ZN8ssdm_intILi41ELb1EEC2EDq41_i" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<42>::ap_int<42, true>(ap_int_base<42, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="../gbt24/gbt24.cpp" line="35" pragmaType="pipeline" parentfunction="gbt24" off="0" ii="1" rewind="0" style=""/>
+<pragma file="../gbt24/gbt24.cpp" line="18" pragmaType="interface" parentfunction="gbt24" mode="axis" port="s_axis_video" register="0" register_mode="both" name="" depth="-1"/>
+<pragma file="../gbt24/gbt24.cpp" line="19" pragmaType="interface" parentfunction="gbt24" mode="axis" port="m_axis_video" register="0" register_mode="both" name="" depth="-1"/>
+<pragma file="../gbt24/gbt24.cpp" line="21" pragmaType="interface" parentfunction="gbt24" mode="s_axilite" port="width" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../gbt24/gbt24.cpp" line="22" pragmaType="interface" parentfunction="gbt24" mode="s_axilite" port="height" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../gbt24/gbt24.cpp" line="23" pragmaType="interface" parentfunction="gbt24" mode="s_axilite" port="threshold" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../gbt24/gbt24.cpp" line="24" pragmaType="interface" parentfunction="gbt24" mode="s_axilite" port="mode" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../gbt24/gbt24.cpp" line="25" pragmaType="interface" parentfunction="gbt24" mode="s_axilite" port="enable_blur" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../gbt24/gbt24.cpp" line="26" pragmaType="interface" parentfunction="gbt24" mode="s_axilite" port="" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<42, true>::RType<42, true>::arg1 operator>><42, true>(ap_int_base<42, true> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<24>::ap_uint<8>(ap_uint<8> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_int_base<8, false>::operator>=<32, true>(ap_int_base<32, true> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<24, false>::RType<24, false>::logic operator|<24, false, 24, false>(ap_int_base<24, false> const&, ap_int_base<24, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_id_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_dest_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<24, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<8>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_user_ptr" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx_vitis/Vitis_HLS/2023.2/common/technology/autopilot\etc/ap_common.h" line="515" pragmaType="inline" parentfunction="ssdm_int<32, true>::ssdm_int(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<24, false>::RType<24, false>::arg1 operator<<<24, false>(ap_int_base<24, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx_vitis/Vitis_HLS/2023.2/common/technology/autopilot\etc/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi24ELb0EEC2EDq24_j" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<24, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool operator>=<8, false>(ap_int_base<8, false> const&, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_data_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<24>::ap_uint<24, false>(ap_int_base<24, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<8, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<40, true>::RType<40, true>::plus operator+<40, true, 40, true>(ap_int_base<40, true> const&, ap_int_base<40, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_strb_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_last_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<41, true>::RType<40, true>::plus operator+<41, true, 40, true>(ap_int_base<41, true> const&, ap_int_base<40, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<8>::ap_uint<42>(ap_int<42> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<8, false>::ap_int_base<42, true>(ap_int_base<42, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<8, false>::RType<($_0)32, true>::mult operator*<8, false>(int, ap_int_base<8, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<42, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<8>::ap_uint<24, false>(ap_range_ref<24, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_keep_ptr" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx_vitis/Vitis_HLS/2023.2/common/technology/autopilot\etc/ap_common.h" line="523" pragmaType="inline" parentfunction="ssdm_int<8, false>::ssdm_int(unsigned char)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+</pragmas>
