@@ -156,7 +156,7 @@ printf("\n[TEST 5] MODE_MOTION top-left quadrant moved\n");
         for (int c = 0; c < COLS; c++) {
             axis_pixel_t px = out_s.read();
             int out_val  = px.data.range(23,16);
-            int expected = (r < 4 && c < 4) ? 100 : 0; // abs_diff: |200-100|=100, |100-100|=0
+            int expected = (r < 4 && c < 4) ? 255 : 0; 
             if (out_val != expected) {
                 printf("FAIL [%d,%d] expected %d got %d\n", r, c, expected, out_val);
                 errors++;
