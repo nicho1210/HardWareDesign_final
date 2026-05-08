@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="video_gray_live_prj" solutionName="solution1" date="2026-05-07T17:54:22.845-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] 'VITIS_LOOP_31_1' (video_gray_live.cpp:31:22) in function 'video_gray_live' is an infinite loop." projectName="video_gray_live_prj" solutionName="solution1" date="2026-05-07T17:54:22.179-0400" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

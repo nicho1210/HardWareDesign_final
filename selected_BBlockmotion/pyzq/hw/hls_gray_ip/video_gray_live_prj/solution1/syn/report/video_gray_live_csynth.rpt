@@ -1,0 +1,151 @@
+
+
+================================================================
+== Vitis HLS Report for 'video_gray_live'
+================================================================
+* Date:           Thu May  7 17:54:22 2026
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        video_gray_live_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  4.908 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_31_1  |        ?|        ?|         2|          1|          1|   inf|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     25|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       -|      -|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|     41|    -|
+|Register         |        -|    -|       4|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|       4|     66|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |curr_bin_fu_167_p2                |      icmp|   0|  0|  15|           8|           7|
+    |ap_block_pp0_stage0_01001         |        or|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_11001         |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2_pp0_stage0_iter0  |        or|   0|  0|   2|           1|           1|
+    |select_ln56_fu_173_p3             |    select|   0|  0|   2|           1|           2|
+    |ap_enable_pp0                     |       xor|   0|  0|   2|           1|           2|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0|  25|          13|          14|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                |  14|          3|    1|          3|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |in_stream_TDATA_blk_n    |   9|          2|    1|          2|
+    |out_stream_TDATA_blk_n   |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  41|          9|    4|          9|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+---+----+-----+-----------+
+    |           Name          | FF| LUT| Bits| Const Bits|
+    +-------------------------+---+----+-----+-----------+
+    |ap_CS_fsm                |  2|   0|    2|          0|
+    |ap_enable_reg_pp0_iter0  |  1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |  1|   0|    1|          0|
+    +-------------------------+---+----+-----+-----------+
+    |Total                    |  4|   0|    4|          0|
+    +-------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+--------------+---------------------+--------------+
+|     RTL Ports     | Dir | Bits|   Protocol   |    Source Object    |    C Type    |
++-------------------+-----+-----+--------------+---------------------+--------------+
+|ap_clk             |   in|    1|  ap_ctrl_none|      video_gray_live|  return value|
+|ap_rst_n           |   in|    1|  ap_ctrl_none|      video_gray_live|  return value|
+|in_stream_TDATA    |   in|   24|          axis|   in_stream_V_data_V|       pointer|
+|in_stream_TVALID   |   in|    1|          axis|   in_stream_V_dest_V|       pointer|
+|in_stream_TREADY   |  out|    1|          axis|   in_stream_V_dest_V|       pointer|
+|in_stream_TDEST    |   in|    1|          axis|   in_stream_V_dest_V|       pointer|
+|in_stream_TKEEP    |   in|    3|          axis|   in_stream_V_keep_V|       pointer|
+|in_stream_TSTRB    |   in|    3|          axis|   in_stream_V_strb_V|       pointer|
+|in_stream_TUSER    |   in|    1|          axis|   in_stream_V_user_V|       pointer|
+|in_stream_TLAST    |   in|    1|          axis|   in_stream_V_last_V|       pointer|
+|in_stream_TID      |   in|    1|          axis|     in_stream_V_id_V|       pointer|
+|out_stream_TDATA   |  out|   24|          axis|  out_stream_V_data_V|       pointer|
+|out_stream_TVALID  |  out|    1|          axis|  out_stream_V_dest_V|       pointer|
+|out_stream_TREADY  |   in|    1|          axis|  out_stream_V_dest_V|       pointer|
+|out_stream_TDEST   |  out|    1|          axis|  out_stream_V_dest_V|       pointer|
+|out_stream_TKEEP   |  out|    3|          axis|  out_stream_V_keep_V|       pointer|
+|out_stream_TSTRB   |  out|    3|          axis|  out_stream_V_strb_V|       pointer|
+|out_stream_TUSER   |  out|    1|          axis|  out_stream_V_user_V|       pointer|
+|out_stream_TLAST   |  out|    1|          axis|  out_stream_V_last_V|       pointer|
+|out_stream_TID     |  out|    1|          axis|    out_stream_V_id_V|       pointer|
++-------------------+-----+-----+--------------+---------------------+--------------+
+
