@@ -1,7 +1,7 @@
 #ifndef VIDEO_IP_H
 #define VIDEO_IP_H
-#define MAX_ROWS 720
-#define MAX_COLS 1280
+#define MAX_ROWS 480
+#define MAX_COLS 640
 
 #include "ap_int.h"
 #include "ap_axi_sdata.h"
