@@ -1,8 +1,0 @@
-+====================+===================+===============================================================================================================================================================+
-| Launch Setup Clock | Launch Hold Clock | Pin                                                                                                                                                           |
-+====================+===================+===============================================================================================================================================================+
-| clk_fpga_0         | clk_fpga_0        | video_out_pynq_z2_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][6]_srl8_srlopt/D                                                                          |
-| clk_fpga_0         | clk_fpga_0        | video_out_pynq_z2_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1]_srl8_srlopt/D                                                                          |
-| clk_fpga_0         | clk_fpga_0        | video_out_pynq_z2_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[6].U_M/allx_typeA_match_detection.ltlib_v1_0_1_allx_typeA_inst/probeDelay1_reg[0]/D |
-| clk_fpga_0         | clk_fpga_0        | video_out_pynq_z2_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_1_allx_typeA_inst/probeDelay1_reg[0]/D |
-+--------------------+-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
