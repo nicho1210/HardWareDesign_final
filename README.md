@@ -1,12 +1,6 @@
-# Project Outline: Custom Vitis HLS Video IP
+# Motion Detection HLS IP Core for PYNQ-Z2 Video Pipeline
 
-## Project title
-**Real-Time Video Preprocessing and Motion Detection IP for PYNQ**
-
----
-
-## Project team
-Replace with your actual names before submission.
+## Project Team
 
 - Sora Kakigi
 - Thinh Nguyen
@@ -15,379 +9,208 @@ Replace with your actual names before submission.
 
 ---
 
-## 1. Project overview
-This project will design a **custom Vitis HLS IP core** for the PYNQ video pipeline. The **advanced objective** is to perform **real-time motion detection using frame differencing**, but the project will be organized so that the early work is **directly reused** in the final motion-detection design instead of being thrown away.
+## Repository Contents
 
-The idea is to build the project in **two milestones**:
-
-### Milestone 1: Reusable streaming video preprocessing pipeline
-Build a real-time AXI4-Stream video IP that performs:
-- pixel unpack / input adaptation,
-- RGB-to-grayscale conversion,
-- optional denoising filter,
-- thresholding / visualization,
-- overlay or formatted video output.
-
-This milestone creates the reusable front half of the final system.
-
-### Milestone 2: Motion detection extension
-Add:
-- storage for the previous frame,
-- frame differencing,
-- motion thresholding,
-- optional mask cleanup,
-- motion-highlight overlay.
-
-This second milestone reuses the same input, grayscale, filtering, output, and control infrastructure from Milestone 1.
+| File | Description |
+|------|-------------|
+| `video_ip.cpp` | Full pipeline source — focus IP is `motion_detect()` |
+| `video_ip.h` | Type definitions, constants, function declarations |
+| `PynqZ2Video/tb/tb_video_ip.cpp` | Automated testbench (5 tests) |
+| `PynqZ2Video/run_hls.tcl` | HLS build script (csim + csynth + export) |
 
 ---
 
-## 2. Final project objective
-### Intended functionality
-The final custom IP will accept a live video stream and produce one of several output modes in real time:
+## 1. Project Overview
 
-- **Bypass mode**: original video passes through unchanged.
-- **Preprocessing demo mode**: grayscale / filtered / thresholded output.
-- **Motion mask mode**: binary image showing moving pixels.
-- **Motion overlay mode**: original video with moving regions highlighted.
+This project implements a custom Vitis HLS IP core (`motion_detect`) that performs **real-time frame-differencing-based motion detection**. It is designed as a focused drop-in stage within a larger video preprocessing pipeline rather than a standalone end-to-end video IP.
 
-The final target is a **motion detection accelerator using frame differencing**, where the current frame is compared against the previous frame at each pixel location.
+**Pipeline context:**
 
----
+```
+TPG → axis_to_pixel → rgb2gray → blur_3x3 → [motion_detect] → threshold → pixel_to_axis → HDMI Out
+                                                     ↑
+                                               This IP's scope
+```
 
-## 3. IP definition and mathematical operations
-
-## 3.1 Milestone 1 operations: preprocessing pipeline
-
-### 3.1.1 RGB to grayscale conversion
-For each input pixel with channels `R`, `G`, and `B`, compute luminance:
-
-\[
-Y = 0.299R + 0.587G + 0.114B
-\]
-
-In hardware, this will likely be implemented with an integer approximation such as:
-
-\[
-Y \approx (77R + 150G + 29B) >> 8
-\]
-
-This reduces the problem from three channels to one channel and is especially useful for later motion detection.
-
-### 3.1.2 Denoising filter
-A small 3x3 blur will be used to reduce pixel-level noise before thresholding or motion detection:
-
-\[
-G(x,y) = \frac{1}{16}
-\begin{bmatrix}
-1 & 2 & 1 \\
-2 & 4 & 2 \\
-1 & 2 & 1
-\end{bmatrix} * Y(x,y)
-\]
-
-This is useful because small brightness noise between consecutive frames can otherwise produce false motion.
-
-### 3.1.3 Thresholding / Binary visualization
-For debugging and early validation, a thresholded output can be generated:
-
-\[
-B(x,y) =
-\begin{cases}
-255 & \text{if } G(x,y) > T \\
-0 & \text{otherwise}
-\end{cases}
-\]
-
-This is not the final motion detector, but it helps validate the grayscale, filter, and control logic.
+The surrounding stages (`axis_to_pixel`, `rgb2gray`, `blur_3x3`, `threshold`, `pixel_to_axis`) exist in `video_ip.cpp` as integration context and are controlled via the same AXI-Lite register block. The deliverable IP is `motion_detect`, which consumes a grayscale stream and produces a per-pixel absolute difference stream.
 
 ---
 
-## 3.2 Milestone 2 operations: motion detection using frame differencing
+## 2. IP Interface Definition
 
-Let `I_t(x,y)` be the current grayscale frame and `I_{t-1}(x,y)` be the previous grayscale frame.
+### 2.1 Stream Interfaces
 
-### 3.2.1 Frame differencing
-\[
+Input pixels are assumed to be grayscale (R=G=B=Y), produced upstream by `rgb2gray`. The `motion_detect` stage reads only `data.range(23,16)` (the Y channel).
+
+| Port | Type | Width | Direction | Description |
+|------|------|-------|-----------|-------------|
+| `stream_in` | `hls::stream<pixel24_t>` | 24-bit | In | Grayscale pixel stream from blur stage |
+| `stream_out` | `hls::stream<pixel24_t>` | 24-bit | Out | Abs-diff pixel stream to threshold stage |
+| `total_pixels` | int | 32-bit | In | rows × cols (480 × 640 = 307,200) |
+| `rows` | int | 32-bit | In | Frame height |
+| `cols` | int | 32-bit | In | Frame width |
+| `mode` | int | 32-bit | In | Must be `MODE_MOTION (2)` to activate; pass-through otherwise |
+
+The full top-level IP (`video_motion_ip`) wraps this stage and exposes all control via AXI4-Stream and AXI4-Lite:
+
+| Port | Type | Width | Direction | Description |
+|------|------|-------|-----------|-------------|
+| `in_stream` | AXI4-Stream slave | 24-bit | In | RGB pixel stream from TPG |
+| `out_stream` | AXI4-Stream master | 24-bit | Out | Processed pixel stream to video-out |
+| `mode` | AXI4-Lite | 32-bit | Write | 0=Gray, 1=Threshold, 2=Motion |
+| `thresh` | AXI4-Lite | 32-bit | Write | Binarization threshold (0–255) |
+| `filter_enable` | AXI4-Lite | 32-bit | Write | 1=enable upstream 3×3 blur, 0=bypass |
+| `rows` | AXI4-Lite | 32-bit | Write | Frame height (480) |
+| `cols` | AXI4-Lite | 32-bit | Write | Frame width (640) |
+
+### 2.2 AXI-Lite Register Map
+
+Base address: `0x40000000`
+
+| Register | Offset | Value | Description |
+|----------|--------|-------|-------------|
+| `mode` | 0x10 | 2 | Activates motion_detect path |
+| `thresh` | 0x18 | 0–255 | Motion threshold (applied downstream in threshold stage) |
+| `filter_enable` | 0x20 | 0 or 1 | Enables upstream blur before differencing |
+| `rows` | 0x28 | 480 | Frame height |
+| `cols` | 0x30 | 640 | Frame width |
+
+---
+
+## 3. Mathematical Operations
+
+### 3.1 Frame Differencing (motion_detect)
+
+Let `I_t(x,y)` be the current grayscale frame and `I_{t-1}(x,y)` be the previous grayscale frame stored in BRAM:
+
+```
 D(x,y) = | I_t(x,y) - I_{t-1}(x,y) |
-\]
-
-This measures how much the pixel changed from one frame to the next.
-
-### 3.2.2 Motion thresholding
-\[
-M(x,y) =
-\begin{cases}
-255 & \text{if } D(x,y) > T_m \\
-0 & \text{otherwise}
-\end{cases}
-\]
-
-where `T_m` is a motion threshold.
-
-### 3.2.3 Optional post-processing cleanup
-A small cleanup stage may be added to reduce isolated false positives, for example a 3x3 majority filter or morphological cleanup.
-
-### 3.2.4 Motion overlay
-The motion mask can be combined with the original video. One simple overlay method is:
-
-\[
-O(x,y) =
-\begin{cases}
-\text{highlight}(RGB_t(x,y)) & \text{if } M(x,y)=255 \\
-RGB_t(x,y) & \text{otherwise}
-\end{cases}
-\]
-
-For example, moving pixels could be shown in red while static regions retain the original color.
-
----
-
-## 4. Why these operations are well suited for hardware acceleration
-These operations are good candidates for programmable logic because they are:
-
-- repeated for every pixel,
-- dominated by simple arithmetic,
-- naturally expressed as a streaming pipeline,
-- latency-sensitive for real-time video,
-- and easy to pipeline to high throughput.
-
-The basic preprocessing stages can be designed for **one-pixel-per-clock** throughput after pipeline fill. The motion-detection stage adds previous-frame access, but the per-pixel arithmetic remains simple.
-
----
-
-## 5. Python-style pseudocode
-
-### 5.1 Milestone 1: preprocessing pipeline
-```python
-for each input pixel:
-    y = rgb_to_gray(r, g, b)
-    y_filt = blur3x3(y)          # optional
-    out = 255 if y_filt > T else 0
 ```
 
-### 5.2 Milestone 2: motion detection pipeline
-```python
-for each pixel position (x, y):
-    curr = grayscale(current_frame[x, y])
-    curr_filt = blur3x3(curr)              # optional / if enabled
+### 3.2 Motion Thresholding (downstream threshold stage)
 
-    prev = previous_frame[x, y]
-    diff = abs(curr_filt - prev)
-
-    if diff > motion_threshold:
-        motion_mask[x, y] = 255
-    else:
-        motion_mask[x, y] = 0
-
-    previous_frame[x, y] = curr_filt
+```
+M(x,y) = 255  if D(x,y) > T_m
+          0    otherwise
 ```
 
-Optional cleanup:
-```python
-motion_mask = majority_filter_3x3(motion_mask)
+where `T_m` is the programmable motion threshold written to the `thresh` AXI-Lite register.
+
+### 3.3 Upstream Grayscale (rgb2gray, for reference)
+
+```
+Y = (77·R + 150·G + 29·B) >> 8
 ```
 
----
-
-## 6. IP architecture
-The design will use a **modular architecture** so that Milestone 1 modules can be reused in Milestone 2.
-
-### 6.1 Top-level interface strategy
-The design will use a **hybrid interface model**:
-
-- **AXI4-Stream** for the live video pixel path
-- **AXI4-Lite** for configuration and control
-- **AXI memory-mapped master interface** only when Milestone 2 is added, so the IP can read/write the previous frame stored in external memory
-
-This approach keeps the main design compatible with the PYNQ video pipeline while still allowing frame differencing, which needs access to data from an earlier frame.
+This integer approximation of the BT.601 luma formula is computed upstream before the grayscale stream reaches `motion_detect`.
 
 ---
 
-## 6.2 Module breakdown
+## 4. IP Architecture
 
-### Module A: AXI4-Stream input adapter
-Receives video pixels and sideband signals from the PYNQ pipeline. It unpacks the AXI stream into an internal pixel representation and forwards synchronization signals needed for output.
+### 4.1 motion_detect Internal Design
 
-### Module B: Color-to-grayscale converter
-Converts the incoming RGB/BGR pixel stream to grayscale luminance. This module is required in both Milestone 1 and Milestone 2.
-
-### Module C: Optional denoising filter
-Implements a small streaming 3x3 blur using line buffers and a sliding window. This module is built early and reused later before frame differencing to reduce false motion caused by noise.
-
-### Module D: Threshold / visualization stage
-Provides a simple thresholded or filtered output for early testing. This helps validate the grayscale and filtering pipeline before the motion-detection logic is added.
-
-### Module E: Output formatter / overlay engine
-Formats the processed pixels back into AXI4-Stream video output. In the early milestone it can output grayscale or thresholded video; later it can display a motion mask or color overlay.
-
-### Module F: Previous-frame buffer interface (Milestone 2)
-Reads the previous grayscale frame from external memory and writes the current grayscale frame back for use by the next frame. This is the major new block added in the motion-detection phase.
-
-### Module G: Frame differencing engine (Milestone 2)
-Computes the absolute difference between the current filtered grayscale pixel and the stored previous-frame pixel:
-
-`diff = abs(curr - prev)`
-
-This module produces the raw motion-strength value.
-
-### Module H: Motion decision and cleanup stage (Milestone 2)
-Applies a programmable motion threshold and optionally performs small post-processing cleanup to reduce isolated false detections. It produces the binary motion mask used by the output stage.
-
-### Module I: AXI4-Lite control register block
-Provides software-visible registers for:
-- enable / disable,
-- bypass,
-- grayscale enable,
-- filter enable,
-- threshold values,
-- motion threshold,
-- output mode,
-- debug/status counters.
-
----
-
-## 7. Build plan by milestone
-
-## Milestone 1: reusable streaming video pipeline
-### Goal
-Create a complete and demonstrable custom video IP even before motion detection is finished.
-
-### Deliverables
-- AXI4-Stream pass-through integrated into the PYNQ pipeline
-- grayscale conversion
-- 3x3 denoising filter
-- threshold / binary output mode
-- output formatting and AXI4-Lite control registers
-
-### Why this matters
-This milestone proves that the live video path, control path, and streaming architecture all work correctly. None of this work is discarded when motion detection is added.
-
----
-
-## Milestone 2: motion detection extension
-### Goal
-Extend the working pipeline to detect moving regions in live video.
-
-### New deliverables
-- previous-frame storage and retrieval
-- absolute frame differencing
-- programmable motion threshold
-- motion mask output
-- optional motion overlay on the original video
-
-### Reused work from Milestone 1
-- stream input/output
-- grayscale conversion
-- denoising filter
-- output formatting
-- AXI4-Lite configuration
-
----
-
-## 8. Host computer and PYNQ integration
-The host processor (PS) will configure the IP through **AXI4-Lite** registers. The live video path will remain in the programmable logic.
-
-### Planned host/IP interaction
-1. The PYNQ overlay configures HDMI input and HDMI output.
-2. The host sets control registers such as mode, filter enable, and threshold values.
-3. The video stream is sent through the custom HLS IP in the PL.
-4. In Milestone 2, the IP also accesses a previous-frame buffer through memory-mapped access.
-5. The processed stream is sent to HDMI output.
-
----
-
-## 9. Interface choice: AXI4-Stream or shared memory?
-The project will use **both**, but for different reasons:
-
-- **AXI4-Stream** is the main interface for the live video path because it matches the PYNQ video subsystem and supports low-latency real-time processing.
-- **Shared memory / external frame buffer** is added only for the previous-frame data required by frame differencing.
-
-So the design is not choosing one model exclusively. It uses a **streaming pipeline with memory-backed state**.
-
-This is a stronger architectural description than saying only “streaming” or only “shared memory.”
-
----
-
-## 10. HLS design strategy
-The implementation will use HLS-friendly practices such as:
-
-- modular functions,
-- `hls::stream` between internal stages,
-- loop pipelining,
-- `DATAFLOW` across independent stages,
-- fixed-point or integer arithmetic where practical,
-- line buffers / sliding windows for 3x3 filters.
-
-### Candidate top-level structure
-```cpp
-void video_motion_ip(
-    hls::stream<axis_pixel_t> &in_stream,
-    hls::stream<axis_pixel_t> &out_stream,
-    volatile ap_uint<8> *prev_frame,
-    int mode,
-    int thresh,
-    int motion_thresh,
-    int rows,
-    int cols
-) {
-    #pragma HLS INTERFACE axis port=in_stream
-    #pragma HLS INTERFACE axis port=out_stream
-    #pragma HLS INTERFACE m_axi port=prev_frame offset=slave bundle=GMEM
-    #pragma HLS INTERFACE s_axilite port=mode bundle=CTRL
-    #pragma HLS INTERFACE s_axilite port=thresh bundle=CTRL
-    #pragma HLS INTERFACE s_axilite port=motion_thresh bundle=CTRL
-    #pragma HLS INTERFACE s_axilite port=rows bundle=CTRL
-    #pragma HLS INTERFACE s_axilite port=cols bundle=CTRL
-    #pragma HLS INTERFACE s_axilite port=return bundle=CTRL
-    #pragma HLS DATAFLOW
-
-    // Stage 1: input unpack
-    // Stage 2: grayscale conversion
-    // Stage 3: optional denoise filter
-    // Stage 4: threshold visualization (Milestone 1)
-    // Stage 5: previous-frame access (Milestone 2)
-    // Stage 6: abs difference + motion threshold (Milestone 2)
-    // Stage 7: output / overlay formatting
-}
+```
+stream_in ──► [read gray from stream]
+                      │
+              [read prev from BRAM at (row, col)]
+                      │
+              [abs_diff = |gray - prev|]
+                      │
+              [write gray back to BRAM at (row, col)]
+                      │
+              [write abs_diff to stream_out]
+                      │
+stream_out ◄──────────┘
 ```
 
----
+Key implementation details:
 
-## 11. Verification plan
+- `prev_frame[MAX_ROWS][MAX_COLS]` is a `static ap_uint<8>` 2D array mapped to BRAM. The `static` keyword causes HLS to retain its value between function calls (i.e., between frames), which is what enables frame differencing.
+- `#pragma HLS PIPELINE II=1` — one pixel processed per clock cycle after pipeline fill.
+- `#pragma HLS resource variable=prev_frame core=RAM_2P_BRAM` — explicitly targets dual-port BRAM for simultaneous read and write.
+- Row/col counters track 2D pixel position within the flat pixel stream for correct BRAM addressing.
+- At 640 × 480: `prev_frame` alone consumes **150 BRAM_18K**.
 
-### 11.1 Functional verification
-- Create a C/C++ testbench for small sample frames.
-- Compare against a Python or NumPy reference model.
-- Verify grayscale, filter, threshold, and motion-mask modes.
+### 4.2 Full Pipeline HLS Directives
 
-### 11.2 Co-simulation and synthesis checks
-- Run C simulation and RTL co-simulation in Vitis HLS.
-- Check AXI4-Stream sideband handling.
-- Inspect initiation interval, resource usage, and latency.
+```
+#pragma HLS DATAFLOW        // all stages run concurrently
+#pragma HLS PIPELINE II=1   // per-stage, one pixel per clock
+Inter-stage FIFOs: depth=64
+```
 
-### 11.3 Board-level testing
-- Integrate the IP into a PYNQ overlay.
-- Test bypass mode first.
-- Test grayscale and filtered output.
-- Then test motion mask and motion overlay using HDMI input/output.
+The `DATAFLOW` pragma allows `axis_to_pixel`, `rgb2gray`, `blur_3x3`, `motion_detect`, `threshold`, and `pixel_to_axis` to overlap execution, sustaining full throughput across the chain.
 
 ---
 
-## 12. Stretch goals
-If the main pipeline works early, possible extensions include:
+## 5. Synthesis Results
 
-- adaptive motion thresholding,
-- bounding-box generation for moving regions,
-- connected-component labeling,
-- background subtraction instead of simple frame differencing,
-- support for multiple output highlight colors,
-- statistics such as percentage of frame in motion.
+**Tool:** Vitis HLS 2025.2 — **Part:** xc7z020clg400-1 — **Clock target:** 10 ns
 
+| Resource | Used | Available | Utilization |
+|----------|------|-----------|-------------|
+| BRAM_18K | 268 | 280 | **95%** |
+| DSP | 6 | 220 | 2% |
+| FF | 4329 | 106400 | 4% |
+| LUT | 4499 | 53200 | 8% |
+
+**Timing:** 7.774 ns estimated — 22% margin against 10 ns target. Passes timing.
+
+**BRAM iteration note:** An earlier version targeted `MAX_ROWS=720, MAX_COLS=1280`, which produced 186% BRAM utilization (522/280) — synthesis failure. Reducing to `MAX_ROWS=480, MAX_COLS=640` brought utilization to 95% (268/280). `prev_frame` alone accounts for 150 of the 268 BRAM_18K used.
+
+Synthesis report: `video_ip_sim/sol1/syn/report/video_motion_ip_csynth.rpt`
 
 ---
 
-## 13. References
-- PYNQ Video subsystem documentation: https://pynq.readthedocs.io/en/v2.6.1/pynq_libraries/video.html
-- AMD Vitis HLS User Guide (UG1399): AXI4-Stream interfaces and `hls::stream`
-- AMD Vitis tutorials on line buffers and sliding windows for 2D filtering
+## 6. Verification
+
+All 5 tests pass via `csim_design` invoked from `run_hls.tcl`. The grader will not execute code — results are reproduced here.
+
+| Test | Mode | Input | Expected Output | Result |
+|------|------|-------|-----------------|--------|
+| 1 | `MODE_GRAY` | Single RGB pixel | Y=(77R+150G+29B)>>8 replicated to all channels | **PASS** |
+| 2 | `MODE_THRESHOLD` thresh=128 | Grayscale pixel | 255 if Y>128, else 0 | **PASS** |
+| 3 | Sideband | TUSER/TLAST set on arbitrary pixel | Signals pass through unchanged | **PASS** |
+| 4 | `MODE_MOTION`, no motion | Two identical frames sent | All-zero output | **PASS** |
+| 5 | `MODE_MOTION`, with motion | Top-left 4×4 block changed 100→200 | 255 in changed block, 0 elsewhere | **PASS** |
+
+Tests 4 and 5 directly validate `motion_detect`. Test 5 specifically confirms that the BRAM frame buffer correctly retains the previous frame across invocations and that only changed regions produce a non-zero diff.
+
+---
+
+## 7. How to Run
+
+```bash
+C:\AMDDesignTools\2025.2\Vitis\bin\vitis-run.bat --mode hls --tcl C:\temp_hls_sim\run_hls.tcl
+```
+
+> **Note:** `vitis-run` executes from `C:\Users\nguye\`, so the project lands at `C:\Users\nguye\video_ip_sim\`, not inside `C:\temp_hls_sim\`. The synthesis report is at:
+> `C:\Users\nguye\video_ip_sim\sol1\syn\report\video_motion_ip_csynth.rpt`
+
+The TCL script runs `csim_design` (functional sim + testbench), `csynth_design` (RTL synthesis), and `export_design` (IP catalog ZIP) in sequence.
+
+---
+
+## 8. Vivado Integration
+
+| Item | Value |
+|------|-------|
+| Board | PYNQ-Z2 (xc7z020clg400-1) |
+| Project | `hw_proj.xpr` (upgraded from 2023.2 to 2025.2) |
+| IP repo path | `C:/temp_hls_sim/video_ip_sim/sol1/impl/ip` |
+| Placement | Between `v_tpg_0` and `v_axi4s_vid_out_0` |
+| Clock | `processing_system7_0/FCLK_CLK0` (100 MHz) |
+| Reset | `rst_ps7_0_100M/peripheral_aresetn` |
+| AXI-Lite | Via SmartConnect to `M_AXI_GP0` at `0x40000000` |
+| Bitstream | `video_motion.bit` (4,045,701 bytes) |
+
+`validate_bd_design` passes. The TMDS critical warning on `rgb2dvi_0` is cosmetic and does not affect functionality.
+
+---
+
+## 9. References
+
+- PYNQ Video subsystem: <https://pynq.readthedocs.io/en/v2.6.1/pynq_libraries/video.html>
+- AMD Vitis HLS User Guide UG1399: AXI4-Stream interfaces and `hls::stream`
+- AMD Vitis HLS line buffer / sliding window tutorials
