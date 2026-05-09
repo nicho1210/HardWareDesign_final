@@ -1,0 +1,20 @@
+{
+  "0": {
+    "basicblocks": 30,
+    "calls": "",
+    "file": "video_gray_live.cpp",
+    "fileloc": 20,
+    "instructions": 219,
+    "loads": {
+      "G": 13,
+      "L": 7
+    },
+    "name": "video_gray_live",
+    "stores": {
+      "G": 19,
+      "L": 8,
+      "T": 1
+    },
+    "total_instructions": 219
+  }
+}

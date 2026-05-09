@@ -1,0 +1,44 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "video_gray_live",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "video_gray_live"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/selected_topics_hdmi/pyzq/hw/hls_gray_ip/video_gray_live_prj/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "video_gray_live",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "video_gray_live"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/selected_topics_hdmi/pyzq/hw/hls_gray_ip/video_gray_live_prj/solution1/csynth.tcl",
+    "sourceLine": 15,
+    "success": true
+  }
+]

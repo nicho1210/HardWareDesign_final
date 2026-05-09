@@ -1,0 +1,3 @@
+1 error generated.
+Error while processing C:\selected_topics_hdmi\pyzq\hw\hls_gray_ip\video_gray_live_prj\solution1\.autopilot\db\video_gray_live.pp.0.cpp.
+clang-tidy applied 6 of 6 suggested fixes.

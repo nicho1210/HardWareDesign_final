@@ -1,0 +1,63 @@
+---
+MainSourceFile:  'C:/selected_topics_hdmi/pyzq/hw/hls_gray_ip/video_gray_live_prj/solution1/.autopilot/db/video_gray_live.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        'C:\Xilinx_vitis\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'C:\selected_topics_hdmi\pyzq\hw\hls_gray_ip\video_gray_live_prj\solution1\.autopilot\db\video_gray_live.pp.0.cpp'
+        Offset:          59516
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx_vitis\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\selected_topics_hdmi\pyzq\hw\hls_gray_ip\video_gray_live_prj\solution1\.autopilot\db\video_gray_live.pp.0.cpp'
+        Offset:          287007
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx_vitis\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\selected_topics_hdmi\pyzq\hw\hls_gray_ip\video_gray_live_prj\solution1\.autopilot\db\video_gray_live.pp.0.cpp'
+        Offset:          287471
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx_vitis\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\selected_topics_hdmi\pyzq\hw\hls_gray_ip\video_gray_live_prj\solution1\.autopilot\db\video_gray_live.pp.0.cpp'
+        Offset:          287936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'C:\Xilinx_vitis\Vitis_HLS\2023.2\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'C:\selected_topics_hdmi\pyzq\hw\hls_gray_ip\video_gray_live_prj\solution1\.autopilot\db\video_gray_live.pp.0.cpp'
+        Offset:          571423
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ram_2p + lutram is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      31
+    FilePath:        video_gray_live.cpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_46_1:  '
+    FileOffset:      46
+    FilePath:        video_gray_live.cpp
+    Replacements:    
+      - FilePath:        'C:\selected_topics_hdmi\pyzq\hw\hls_gray_ip\video_gray_live_prj\solution1\.autopilot\db\video_gray_live.pp.0.cpp'
+        Offset:          1062002
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_46_1: '
+...

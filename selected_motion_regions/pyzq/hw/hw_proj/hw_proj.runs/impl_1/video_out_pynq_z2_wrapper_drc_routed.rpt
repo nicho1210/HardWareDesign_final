@@ -1,0 +1,62 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Sat May  9 01:37:29 2026
+| Host         : NICHOLAS running 64-bit major release  (build 9200)
+| Command      : report_drc -file video_out_pynq_z2_wrapper_drc_routed.rpt -pb video_out_pynq_z2_wrapper_drc_routed.pb -rpx video_out_pynq_z2_wrapper_drc_routed.rpx
+| Design       : video_out_pynq_z2_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
++-----------+----------+----------------------------+------------+
+| Rule      | Severity | Description                | Violations |
++-----------+----------+----------------------------+------------+
+| REQP-1839 | Warning  | RAMB36 async control check | 1          |
+| RTSTAT-10 | Warning  | No routable loads          | 1          |
++-----------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 video_out_pynq_z2_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin video_out_pynq_z2_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ENARDEN (net: video_out_pynq_z2_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (video_out_pynq_z2_i/dvi2rgb_0/U0/TMDS_ClockingX/aLocked_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+35 net(s) have no routable loads. The problem bus(es) and/or net(s) are video_out_pynq_z2_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m01_nodes/m01_r_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m02_nodes/m02_ar_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m02_nodes/m02_aw_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m02_nodes/m02_b_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m02_nodes/m02_r_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m03_nodes/m03_aw_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m03_nodes/m03_r_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m04_nodes/m04_r_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m05_nodes/m05_aw_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/m05_nodes/m05_w_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/s00_nodes/s00_b_node/inst/mi_handler_m_sc_areset_pipe,
+video_out_pynq_z2_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/mi_handler_m_sc_areset_pipe
+ (the first 15 of 35 listed nets/buses).
+Related violations: <none>
+
+

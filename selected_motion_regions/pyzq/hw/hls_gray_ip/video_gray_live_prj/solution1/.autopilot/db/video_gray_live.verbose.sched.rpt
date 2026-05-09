@@ -1,0 +1,297 @@
+
+
+================================================================
+== Vitis HLS Report for 'video_gray_live'
+================================================================
+* Date:           Sat May  9 01:12:11 2026
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        video_gray_live_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+-----------+------------+
+    |  Clock |  Target  | Estimated | Uncertainty|
+    +--------+----------+-----------+------------+
+    |ap_clk  |  10.00 ns|  12.880 ns|     2.70 ns|
+    +--------+----------+-----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_46_1  |        ?|        ?|         2|          1|          1|   inf|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 0
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 2 3 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 2 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.58>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%first_frame_loc_0 = alloca i32 1"   --->   Operation 4 'alloca' 'first_frame_loc_0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%region_mask_accum_loc_0 = alloca i32 1"   --->   Operation 5 'alloca' 'region_mask_accum_loc_0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%motion_count_accum_loc_0 = alloca i32 1"   --->   Operation 6 'alloca' 'motion_count_accum_loc_0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%y_loc_0 = alloca i32 1"   --->   Operation 7 'alloca' 'y_loc_0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%spectopmodule_ln20 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_5" [video_gray_live.cpp:20]   --->   Operation 8 'spectopmodule' 'spectopmodule_ln20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln20 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_6, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0" [video_gray_live.cpp:20]   --->   Operation 9 'specinterface' 'specinterface_ln20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %in_stream_V_data_V, i3 %in_stream_V_keep_V, i3 %in_stream_V_strb_V, i1 %in_stream_V_user_V, i1 %in_stream_V_last_V, i1 %in_stream_V_id_V, i1 %in_stream_V_dest_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i24 %in_stream_V_data_V"   --->   Operation 11 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i3 %in_stream_V_keep_V"   --->   Operation 12 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i3 %in_stream_V_strb_V"   --->   Operation 13 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %in_stream_V_user_V"   --->   Operation 14 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %in_stream_V_last_V"   --->   Operation 15 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %in_stream_V_id_V"   --->   Operation 16 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %in_stream_V_dest_V"   --->   Operation 17 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %out_stream_V_data_V, i3 %out_stream_V_keep_V, i3 %out_stream_V_strb_V, i1 %out_stream_V_user_V, i1 %out_stream_V_last_V, i1 %out_stream_V_id_V, i1 %out_stream_V_dest_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 18 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i24 %out_stream_V_data_V"   --->   Operation 19 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i3 %out_stream_V_keep_V"   --->   Operation 20 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i3 %out_stream_V_strb_V"   --->   Operation 21 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %out_stream_V_user_V"   --->   Operation 22 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %out_stream_V_last_V"   --->   Operation 23 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %out_stream_V_id_V"   --->   Operation 24 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %out_stream_V_dest_V"   --->   Operation 25 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %motion_count_out"   --->   Operation 26 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %motion_count_out, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 27 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%specmemcore_ln31 = specmemcore void @_ssdm_op_SpecMemCore, i1 %prev_frame, i64 666, i64 23, i64 18446744073709551615" [video_gray_live.cpp:31]   --->   Operation 28 'specmemcore' 'specmemcore_ln31' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln46 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i24 %out_stream_V_data_V, i3 %out_stream_V_keep_V, i3 %out_stream_V_strb_V, i1 %out_stream_V_user_V, i1 %out_stream_V_last_V, i1 %out_stream_V_id_V, i1 %out_stream_V_dest_V, void @empty_3" [video_gray_live.cpp:46]   --->   Operation 29 'specaxissidechannel' 'specaxissidechannel_ln46' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln46 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i24 %in_stream_V_data_V, i3 %in_stream_V_keep_V, i3 %in_stream_V_strb_V, i1 %in_stream_V_user_V, i1 %in_stream_V_last_V, i1 %in_stream_V_id_V, i1 %in_stream_V_dest_V, void @empty_4" [video_gray_live.cpp:46]   --->   Operation 30 'specaxissidechannel' 'specaxissidechannel_ln46' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%y_load = load i10 %y" [video_gray_live.cpp:65]   --->   Operation 31 'load' 'y_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%motion_count_accum_load = load i16 %motion_count_accum" [video_gray_live.cpp:99]   --->   Operation 32 'load' 'motion_count_accum_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%region_mask_accum_load = load i9 %region_mask_accum" [video_gray_live.cpp:100]   --->   Operation 33 'load' 'region_mask_accum_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%first_frame_load = load i1 %first_frame" [video_gray_live.cpp:69]   --->   Operation 34 'load' 'first_frame_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (1.58ns)   --->   "%store_ln65 = store i10 %y_load, i10 %y_loc_0" [video_gray_live.cpp:65]   --->   Operation 35 'store' 'store_ln65' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 36 [1/1] (1.58ns)   --->   "%store_ln99 = store i16 %motion_count_accum_load, i16 %motion_count_accum_loc_0" [video_gray_live.cpp:99]   --->   Operation 36 'store' 'store_ln99' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 37 [1/1] (1.58ns)   --->   "%store_ln100 = store i9 %region_mask_accum_load, i9 %region_mask_accum_loc_0" [video_gray_live.cpp:100]   --->   Operation 37 'store' 'store_ln100' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 38 [1/1] (1.58ns)   --->   "%store_ln69 = store i1 %first_frame_load, i1 %first_frame_loc_0" [video_gray_live.cpp:69]   --->   Operation 38 'store' 'store_ln69' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%br_ln46 = br void %while.body" [video_gray_live.cpp:46]   --->   Operation 39 'br' 'br_ln46' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 7.05>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "%region_mask_accum_loc_0_load = load i9 %region_mask_accum_loc_0"   --->   Operation 40 'load' 'region_mask_accum_loc_0_load' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 41 [1/1] (0.00ns)   --->   "%motion_count_accum_loc_0_load = load i16 %motion_count_accum_loc_0"   --->   Operation 41 'load' 'motion_count_accum_loc_0_load' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 42 [1/1] (0.00ns)   --->   "%y_loc_0_load = load i10 %y_loc_0"   --->   Operation 42 'load' 'y_loc_0_load' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 43 [1/1] (1.00ns)   --->   "%empty = read i34 @_ssdm_op_Read.axis.volatile.i24P0A.i3P0A.i3P0A.i1P0A.i1P0A.i1P0A.i1P0A, i24 %in_stream_V_data_V, i3 %in_stream_V_keep_V, i3 %in_stream_V_strb_V, i1 %in_stream_V_user_V, i1 %in_stream_V_last_V, i1 %in_stream_V_id_V, i1 %in_stream_V_dest_V" [video_gray_live.cpp:48]   --->   Operation 43 'read' 'empty' <Predicate = true> <Delay = 1.00> <CoreInst = "axis">   --->   Core 115 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 44 [1/1] (0.00ns)   --->   "%p_data = extractvalue i34 %empty" [video_gray_live.cpp:48]   --->   Operation 44 'extractvalue' 'p_data' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 45 [1/1] (0.00ns)   --->   "%p_keep = extractvalue i34 %empty" [video_gray_live.cpp:48]   --->   Operation 45 'extractvalue' 'p_keep' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 46 [1/1] (0.00ns)   --->   "%p_strb = extractvalue i34 %empty" [video_gray_live.cpp:48]   --->   Operation 46 'extractvalue' 'p_strb' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 47 [1/1] (0.00ns)   --->   "%p_user = extractvalue i34 %empty" [video_gray_live.cpp:48]   --->   Operation 47 'extractvalue' 'p_user' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 48 [1/1] (0.00ns)   --->   "%p_last = extractvalue i34 %empty" [video_gray_live.cpp:48]   --->   Operation 48 'extractvalue' 'p_last' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 49 [1/1] (0.00ns)   --->   "%p_id = extractvalue i34 %empty" [video_gray_live.cpp:48]   --->   Operation 49 'extractvalue' 'p_id' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 50 [1/1] (0.00ns)   --->   "%p_dest = extractvalue i34 %empty" [video_gray_live.cpp:48]   --->   Operation 50 'extractvalue' 'p_dest' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 51 [1/1] (0.00ns)   --->   "%br_ln50 = br i1 %p_user, void %if.endthread-pre-split, void %if.then" [video_gray_live.cpp:50]   --->   Operation 51 'br' 'br_ln50' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 52 [1/1] (0.00ns)   --->   "%x_load = load i11 %x" [video_gray_live.cpp:65]   --->   Operation 52 'load' 'x_load' <Predicate = (!p_user)> <Delay = 0.00>
+ST_2 : Operation 53 [1/1] (1.58ns)   --->   "%br_ln58 = br void %if.end" [video_gray_live.cpp:58]   --->   Operation 53 'br' 'br_ln58' <Predicate = (!p_user)> <Delay = 1.58>
+ST_2 : Operation 54 [1/1] (1.58ns)   --->   "%store_ln51 = store i11 0, i11 %x" [video_gray_live.cpp:51]   --->   Operation 54 'store' 'store_ln51' <Predicate = (p_user)> <Delay = 1.58>
+ST_2 : Operation 55 [1/1] (1.58ns)   --->   "%store_ln52 = store i10 0, i10 %y" [video_gray_live.cpp:52]   --->   Operation 55 'store' 'store_ln52' <Predicate = (p_user)> <Delay = 1.58>
+ST_2 : Operation 56 [1/1] (1.58ns)   --->   "%store_ln53 = store i16 0, i16 %addr" [video_gray_live.cpp:53]   --->   Operation 56 'store' 'store_ln53' <Predicate = (p_user)> <Delay = 1.58>
+ST_2 : Operation 57 [1/1] (1.58ns)   --->   "%store_ln54 = store i16 0, i16 %motion_count_accum" [video_gray_live.cpp:54]   --->   Operation 57 'store' 'store_ln54' <Predicate = (p_user)> <Delay = 1.58>
+ST_2 : Operation 58 [1/1] (1.58ns)   --->   "%store_ln55 = store i9 0, i9 %region_mask_accum" [video_gray_live.cpp:55]   --->   Operation 58 'store' 'store_ln55' <Predicate = (p_user)> <Delay = 1.58>
+ST_2 : Operation 59 [1/1] (1.58ns)   --->   "%br_ln56 = br void %if.end" [video_gray_live.cpp:56]   --->   Operation 59 'br' 'br_ln56' <Predicate = (p_user)> <Delay = 1.58>
+ST_2 : Operation 60 [1/1] (0.00ns)   --->   "%y_loc_1 = phi i10 0, void %if.then, i10 %y_loc_0_load, void %if.endthread-pre-split"   --->   Operation 60 'phi' 'y_loc_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 61 [1/1] (0.00ns)   --->   "%empty_12 = phi i11 0, void %if.then, i11 %x_load, void %if.endthread-pre-split" [video_gray_live.cpp:65]   --->   Operation 61 'phi' 'empty_12' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 62 [1/1] (0.00ns)   --->   "%g = partselect i8 @_ssdm_op_PartSelect.i8.i24.i32.i32, i24 %p_data, i32 8, i32 15" [video_gray_live.cpp:58]   --->   Operation 62 'partselect' 'g' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 63 [1/1] (1.91ns)   --->   "%curr_bin = icmp_ugt  i8 %g, i8 95" [video_gray_live.cpp:59]   --->   Operation 63 'icmp' 'curr_bin' <Predicate = true> <Delay = 1.91> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 64 [1/1] (0.99ns)   --->   "%select_ln62 = select i1 %curr_bin, i8 255, i8 0" [video_gray_live.cpp:62]   --->   Operation 64 'select' 'select_ln62' <Predicate = true> <Delay = 0.99> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 65 [1/1] (0.00ns)   --->   "%trunc_ln65 = trunc i11 %empty_12" [video_gray_live.cpp:65]   --->   Operation 65 'trunc' 'trunc_ln65' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 66 [1/1] (1.56ns)   --->   "%icmp_ln65 = icmp_eq  i2 %trunc_ln65, i2 0" [video_gray_live.cpp:65]   --->   Operation 66 'icmp' 'icmp_ln65' <Predicate = true> <Delay = 1.56> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 67 [1/1] (0.00ns)   --->   "%trunc_ln65_1 = trunc i10 %y_loc_1" [video_gray_live.cpp:65]   --->   Operation 67 'trunc' 'trunc_ln65_1' <Predicate = (icmp_ln65)> <Delay = 0.00>
+ST_2 : Operation 68 [1/1] (1.56ns)   --->   "%icmp_ln65_1 = icmp_eq  i2 %trunc_ln65_1, i2 0" [video_gray_live.cpp:65]   --->   Operation 68 'icmp' 'icmp_ln65_1' <Predicate = (icmp_ln65)> <Delay = 1.56> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 69 [1/1] (0.00ns)   --->   "%addr_load = load i16 %addr" [video_gray_live.cpp:66]   --->   Operation 69 'load' 'addr_load' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.00>
+ST_2 : Operation 70 [1/1] (0.00ns)   --->   "%zext_ln66 = zext i16 %addr_load" [video_gray_live.cpp:66]   --->   Operation 70 'zext' 'zext_ln66' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.00>
+ST_2 : Operation 71 [1/1] (0.00ns)   --->   "%prev_frame_addr = getelementptr i1 %prev_frame, i64 0, i64 %zext_ln66" [video_gray_live.cpp:66]   --->   Operation 71 'getelementptr' 'prev_frame_addr' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.00>
+ST_2 : Operation 72 [2/2] (2.32ns)   --->   "%prev_bin = load i16 %prev_frame_addr" [video_gray_live.cpp:66]   --->   Operation 72 'load' 'prev_bin' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 2.32> <CoreInst = "RAM_2P_LUTRAM">   --->   Core 90 'RAM_2P_LUTRAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 57600> <RAM>
+ST_2 : Operation 73 [1/1] (2.32ns)   --->   "%store_ln103 = store i1 %curr_bin, i16 %prev_frame_addr" [video_gray_live.cpp:103]   --->   Operation 73 'store' 'store_ln103' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 2.32> <CoreInst = "RAM_2P_LUTRAM">   --->   Core 90 'RAM_2P_LUTRAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 57600> <RAM>
+ST_2 : Operation 74 [1/1] (2.07ns)   --->   "%icmp_ln105 = icmp_eq  i16 %addr_load, i16 57599" [video_gray_live.cpp:105]   --->   Operation 74 'icmp' 'icmp_ln105' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 2.07> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 75 [1/1] (2.07ns)   --->   "%add_ln108 = add i16 %addr_load, i16 1" [video_gray_live.cpp:108]   --->   Operation 75 'add' 'add_ln108' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 76 [1/1] (0.80ns)   --->   "%select_ln105 = select i1 %icmp_ln105, i16 0, i16 %add_ln108" [video_gray_live.cpp:105]   --->   Operation 76 'select' 'select_ln105' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 77 [1/1] (1.58ns)   --->   "%store_ln106 = store i16 %select_ln105, i16 %addr" [video_gray_live.cpp:106]   --->   Operation 77 'store' 'store_ln106' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 1.58>
+ST_2 : Operation 78 [1/1] (0.00ns)   --->   "%p_data_1 = bitconcatenate i17 @_ssdm_op_BitConcatenate.i17.i1.i8.i8, i1 %curr_bin, i8 %select_ln62, i8 %select_ln62" [video_gray_live.cpp:113]   --->   Operation 78 'bitconcatenate' 'p_data_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 79 [1/1] (0.00ns)   --->   "%sext_ln48 = sext i17 %p_data_1" [video_gray_live.cpp:48]   --->   Operation 79 'sext' 'sext_ln48' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 80 [2/2] (1.00ns)   --->   "%write_ln115 = write void @_ssdm_op_Write.axis.volatile.i24P0A.i3P0A.i3P0A.i1P0A.i1P0A.i1P0A.i1P0A, i24 %out_stream_V_data_V, i3 %out_stream_V_keep_V, i3 %out_stream_V_strb_V, i1 %out_stream_V_user_V, i1 %out_stream_V_last_V, i1 %out_stream_V_id_V, i1 %out_stream_V_dest_V, i24 %sext_ln48, i3 %p_keep, i3 %p_strb, i1 %p_user, i1 %p_last, i1 %p_id, i1 %p_dest" [video_gray_live.cpp:115]   --->   Operation 80 'write' 'write_ln115' <Predicate = true> <Delay = 1.00> <CoreInst = "axis">   --->   Core 115 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 81 [1/1] (1.63ns)   --->   "%icmp_ln117 = icmp_eq  i11 %empty_12, i11 1279" [video_gray_live.cpp:117]   --->   Operation 81 'icmp' 'icmp_ln117' <Predicate = true> <Delay = 1.63> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 82 [1/1] (0.00ns)   --->   "%br_ln117 = br i1 %icmp_ln117, void %if.else123, void %if.then107" [video_gray_live.cpp:117]   --->   Operation 82 'br' 'br_ln117' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 83 [1/1] (1.63ns)   --->   "%add_ln134 = add i11 %empty_12, i11 1" [video_gray_live.cpp:134]   --->   Operation 83 'add' 'add_ln134' <Predicate = (!icmp_ln117)> <Delay = 1.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 84 [1/1] (1.58ns)   --->   "%store_ln134 = store i11 %add_ln134, i11 %x" [video_gray_live.cpp:134]   --->   Operation 84 'store' 'store_ln134' <Predicate = (!icmp_ln117)> <Delay = 1.58>
+ST_2 : Operation 85 [1/1] (1.70ns)   --->   "%br_ln0 = br void %if.end125"   --->   Operation 85 'br' 'br_ln0' <Predicate = (!icmp_ln117)> <Delay = 1.70>
+ST_2 : Operation 86 [1/1] (1.58ns)   --->   "%store_ln118 = store i11 0, i11 %x" [video_gray_live.cpp:118]   --->   Operation 86 'store' 'store_ln118' <Predicate = (icmp_ln117)> <Delay = 1.58>
+ST_2 : Operation 87 [1/1] (1.73ns)   --->   "%icmp_ln119 = icmp_eq  i10 %y_loc_1, i10 719" [video_gray_live.cpp:119]   --->   Operation 87 'icmp' 'icmp_ln119' <Predicate = (icmp_ln117)> <Delay = 1.73> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 88 [1/1] (0.00ns)   --->   "%br_ln119 = br i1 %icmp_ln119, void %if.else120, void %if.then110" [video_gray_live.cpp:119]   --->   Operation 88 'br' 'br_ln119' <Predicate = (icmp_ln117)> <Delay = 0.00>
+ST_2 : Operation 89 [1/1] (1.73ns)   --->   "%add_ln131 = add i10 %y_loc_1, i10 1" [video_gray_live.cpp:131]   --->   Operation 89 'add' 'add_ln131' <Predicate = (icmp_ln117 & !icmp_ln119)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 90 [1/1] (1.58ns)   --->   "%store_ln131 = store i10 %add_ln131, i10 %y" [video_gray_live.cpp:131]   --->   Operation 90 'store' 'store_ln131' <Predicate = (icmp_ln117 & !icmp_ln119)> <Delay = 1.58>
+ST_2 : Operation 91 [1/1] (1.70ns)   --->   "%br_ln0 = br void %if.end125"   --->   Operation 91 'br' 'br_ln0' <Predicate = (icmp_ln117 & !icmp_ln119)> <Delay = 1.70>
+ST_2 : Operation 92 [1/1] (1.70ns)   --->   "%br_ln130 = br void %if.end125" [video_gray_live.cpp:130]   --->   Operation 92 'br' 'br_ln130' <Predicate = (icmp_ln117 & icmp_ln119)> <Delay = 1.70>
+ST_2 : Operation 93 [1/1] (0.00ns)   --->   "%y_loc_3 = phi i10 %y_loc_1, void %if.else123, i10 0, void %if.end119, i10 %add_ln131, void %if.else120" [video_gray_live.cpp:131]   --->   Operation 93 'phi' 'y_loc_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 94 [1/1] (1.58ns)   --->   "%store_ln131 = store i10 %y_loc_3, i10 %y_loc_0" [video_gray_live.cpp:131]   --->   Operation 94 'store' 'store_ln131' <Predicate = true> <Delay = 1.58>
+
+State 3 <SV = 2> <Delay = 12.8>
+ST_3 : Operation 95 [1/1] (0.00ns)   --->   "%first_frame_loc_0_load = load i1 %first_frame_loc_0" [video_gray_live.cpp:67]   --->   Operation 95 'load' 'first_frame_loc_0_load' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 96 [1/1] (0.00ns)   --->   "%specpipeline_ln47 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1" [video_gray_live.cpp:47]   --->   Operation 96 'specpipeline' 'specpipeline_ln47' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 97 [1/1] (0.00ns)   --->   "%specloopname_ln46 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7" [video_gray_live.cpp:46]   --->   Operation 97 'specloopname' 'specloopname_ln46' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 98 [1/1] (0.00ns)   --->   "%motion_count_accum_loc_1 = phi i16 0, void %if.then, i16 %motion_count_accum_loc_0_load, void %if.endthread-pre-split"   --->   Operation 98 'phi' 'motion_count_accum_loc_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 99 [1/1] (0.00ns)   --->   "%region_mask_accum_loc_1 = phi i9 0, void %if.then, i9 %region_mask_accum_loc_0_load, void %if.endthread-pre-split"   --->   Operation 99 'phi' 'region_mask_accum_loc_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 100 [1/1] (1.58ns)   --->   "%br_ln65 = br i1 %icmp_ln65, void %if.end96, void %land.rhs" [video_gray_live.cpp:65]   --->   Operation 100 'br' 'br_ln65' <Predicate = true> <Delay = 1.58>
+ST_3 : Operation 101 [1/1] (1.58ns)   --->   "%br_ln65 = br i1 %icmp_ln65_1, void %if.end96, void %if.then33" [video_gray_live.cpp:65]   --->   Operation 101 'br' 'br_ln65' <Predicate = (icmp_ln65)> <Delay = 1.58>
+ST_3 : Operation 102 [1/2] (2.32ns)   --->   "%prev_bin = load i16 %prev_frame_addr" [video_gray_live.cpp:66]   --->   Operation 102 'load' 'prev_bin' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 2.32> <CoreInst = "RAM_2P_LUTRAM">   --->   Core 90 'RAM_2P_LUTRAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 1> <Depth = 57600> <RAM>
+ST_3 : Operation 103 [1/1] (0.00ns) (grouped into LUT with out node and_ln69)   --->   "%xor_ln67 = xor i1 %first_frame_loc_0_load, i1 1" [video_gray_live.cpp:67]   --->   Operation 103 'xor' 'xor_ln67' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 104 [1/1] (0.00ns) (grouped into LUT with out node and_ln69)   --->   "%xor_ln67_1 = xor i1 %prev_bin, i1 %curr_bin" [video_gray_live.cpp:67]   --->   Operation 104 'xor' 'xor_ln67_1' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 105 [1/1] (0.97ns) (out node of the LUT)   --->   "%and_ln69 = and i1 %xor_ln67_1, i1 %xor_ln67" [video_gray_live.cpp:69]   --->   Operation 105 'and' 'and_ln69' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.97> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 106 [1/1] (1.58ns)   --->   "%br_ln67 = br i1 %and_ln69, void %if.end87, void %if.then42" [video_gray_live.cpp:67]   --->   Operation 106 'br' 'br_ln67' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 1.58>
+ST_3 : Operation 107 [1/1] (1.73ns)   --->   "%icmp_ln73 = icmp_ult  i10 %y_loc_1, i10 240" [video_gray_live.cpp:73]   --->   Operation 107 'icmp' 'icmp_ln73' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 1.73> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 108 [1/1] (1.63ns)   --->   "%icmp_ln90 = icmp_ult  i11 %empty_12, i11 426" [video_gray_live.cpp:90]   --->   Operation 108 'icmp' 'icmp_ln90' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 1.63> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 109 [1/1] (0.00ns)   --->   "%br_ln73 = br i1 %icmp_ln73, void %if.else55, void %if.then44" [video_gray_live.cpp:73]   --->   Operation 109 'br' 'br_ln73' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 0.00>
+ST_3 : Operation 110 [1/1] (1.73ns)   --->   "%icmp_ln81 = icmp_ult  i10 %y_loc_1, i10 480" [video_gray_live.cpp:81]   --->   Operation 110 'icmp' 'icmp_ln81' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73)> <Delay = 1.73> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 111 [1/1] (0.00ns)   --->   "%br_ln81 = br i1 %icmp_ln81, void %if.else69, void %if.then57" [video_gray_live.cpp:81]   --->   Operation 111 'br' 'br_ln81' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73)> <Delay = 0.00>
+ST_3 : Operation 112 [1/1] (2.06ns)   --->   "%br_ln90 = br i1 %icmp_ln90, void %if.else73, void %if.end82" [video_gray_live.cpp:90]   --->   Operation 112 'br' 'br_ln90' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73 & !icmp_ln81)> <Delay = 2.06>
+ST_3 : Operation 113 [1/1] (1.63ns)   --->   "%icmp_ln92 = icmp_ult  i11 %empty_12, i11 853" [video_gray_live.cpp:92]   --->   Operation 113 'icmp' 'icmp_ln92' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73 & !icmp_ln81 & !icmp_ln90)> <Delay = 1.63> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 114 [1/1] (1.02ns)   --->   "%region_idx = select i1 %icmp_ln92, i4 7, i4 8" [video_gray_live.cpp:92]   --->   Operation 114 'select' 'region_idx' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73 & !icmp_ln81 & !icmp_ln90)> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 115 [1/1] (2.06ns)   --->   "%br_ln0 = br void %if.end82"   --->   Operation 115 'br' 'br_ln0' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73 & !icmp_ln81 & !icmp_ln90)> <Delay = 2.06>
+ST_3 : Operation 116 [1/1] (2.06ns)   --->   "%br_ln82 = br i1 %icmp_ln90, void %if.else61, void %if.end82" [video_gray_live.cpp:82]   --->   Operation 116 'br' 'br_ln82' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73 & icmp_ln81)> <Delay = 2.06>
+ST_3 : Operation 117 [1/1] (1.63ns)   --->   "%icmp_ln84 = icmp_ult  i11 %empty_12, i11 853" [video_gray_live.cpp:84]   --->   Operation 117 'icmp' 'icmp_ln84' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73 & icmp_ln81 & !icmp_ln90)> <Delay = 1.63> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 118 [1/1] (1.02ns)   --->   "%select_ln70_1_cast = select i1 %icmp_ln84, i4 4, i4 5" [video_gray_live.cpp:84]   --->   Operation 118 'select' 'select_ln70_1_cast' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73 & icmp_ln81 & !icmp_ln90)> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 119 [1/1] (2.06ns)   --->   "%br_ln0 = br void %if.end82"   --->   Operation 119 'br' 'br_ln0' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & !icmp_ln73 & icmp_ln81 & !icmp_ln90)> <Delay = 2.06>
+ST_3 : Operation 120 [1/1] (2.06ns)   --->   "%br_ln74 = br i1 %icmp_ln90, void %if.else, void %if.end82" [video_gray_live.cpp:74]   --->   Operation 120 'br' 'br_ln74' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & icmp_ln73)> <Delay = 2.06>
+ST_3 : Operation 121 [1/1] (1.63ns)   --->   "%icmp_ln76 = icmp_ult  i11 %empty_12, i11 853" [video_gray_live.cpp:76]   --->   Operation 121 'icmp' 'icmp_ln76' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & icmp_ln73 & !icmp_ln90)> <Delay = 1.63> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 122 [1/1] (0.98ns)   --->   "%select_ln70_cast = select i1 %icmp_ln76, i4 1, i4 2" [video_gray_live.cpp:76]   --->   Operation 122 'select' 'select_ln70_cast' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & icmp_ln73 & !icmp_ln90)> <Delay = 0.98> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 123 [1/1] (2.06ns)   --->   "%br_ln0 = br void %if.end82"   --->   Operation 123 'br' 'br_ln0' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69 & icmp_ln73 & !icmp_ln90)> <Delay = 2.06>
+ST_3 : Operation 124 [1/1] (0.00ns)   --->   "%region_idx_1 = phi i4 %region_idx, void %if.else73, i4 %select_ln70_1_cast, void %if.else61, i4 %select_ln70_cast, void %if.else, i4 0, void %if.then44, i4 3, void %if.then57, i4 6, void %if.else69"   --->   Operation 124 'phi' 'region_idx_1' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 0.00>
+ST_3 : Operation 125 [1/1] (2.07ns)   --->   "%add_ln99 = add i16 %motion_count_accum_loc_1, i16 1" [video_gray_live.cpp:99]   --->   Operation 125 'add' 'add_ln99' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 2.07> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.07> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 126 [1/1] (1.58ns)   --->   "%store_ln99 = store i16 %add_ln99, i16 %motion_count_accum" [video_gray_live.cpp:99]   --->   Operation 126 'store' 'store_ln99' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 1.58>
+ST_3 : Operation 127 [1/1] (0.00ns)   --->   "%zext_ln100 = zext i4 %region_idx_1" [video_gray_live.cpp:100]   --->   Operation 127 'zext' 'zext_ln100' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 0.00>
+ST_3 : Operation 128 [1/1] (2.39ns)   --->   "%shl_ln100 = shl i9 1, i9 %zext_ln100" [video_gray_live.cpp:100]   --->   Operation 128 'shl' 'shl_ln100' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 2.39> <CoreInst = "Shifter">   --->   Core 75 'Shifter' <Latency = 0> <II = 1> <Delay = 2.39> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 129 [1/1] (0.99ns)   --->   "%or_ln100 = or i9 %shl_ln100, i9 %region_mask_accum_loc_1" [video_gray_live.cpp:100]   --->   Operation 129 'or' 'or_ln100' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 0.99> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 130 [1/1] (1.58ns)   --->   "%store_ln100 = store i9 %or_ln100, i9 %region_mask_accum" [video_gray_live.cpp:100]   --->   Operation 130 'store' 'store_ln100' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 1.58>
+ST_3 : Operation 131 [1/1] (1.58ns)   --->   "%br_ln101 = br void %if.end87" [video_gray_live.cpp:101]   --->   Operation 131 'br' 'br_ln101' <Predicate = (icmp_ln65 & icmp_ln65_1 & and_ln69)> <Delay = 1.58>
+ST_3 : Operation 132 [1/1] (0.00ns)   --->   "%motion_count_accum_loc_2 = phi i16 %add_ln99, void %if.end82, i16 %motion_count_accum_loc_1, void %if.then33" [video_gray_live.cpp:99]   --->   Operation 132 'phi' 'motion_count_accum_loc_2' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.00>
+ST_3 : Operation 133 [1/1] (0.00ns)   --->   "%region_mask_accum_loc_2 = phi i9 %or_ln100, void %if.end82, i9 %region_mask_accum_loc_1, void %if.then33" [video_gray_live.cpp:100]   --->   Operation 133 'phi' 'region_mask_accum_loc_2' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 0.00>
+ST_3 : Operation 134 [1/1] (1.58ns)   --->   "%br_ln109 = br void %if.end96" [video_gray_live.cpp:109]   --->   Operation 134 'br' 'br_ln109' <Predicate = (icmp_ln65 & icmp_ln65_1)> <Delay = 1.58>
+ST_3 : Operation 135 [1/1] (0.00ns)   --->   "%motion_count_accum_loc_3 = phi i16 %motion_count_accum_loc_2, void %if.end87, i16 %motion_count_accum_loc_1, void %land.rhs, i16 %motion_count_accum_loc_1, void %if.end" [video_gray_live.cpp:99]   --->   Operation 135 'phi' 'motion_count_accum_loc_3' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 136 [1/1] (0.00ns)   --->   "%region_mask_accum_loc_3 = phi i9 %region_mask_accum_loc_2, void %if.end87, i9 %region_mask_accum_loc_1, void %land.rhs, i9 %region_mask_accum_loc_1, void %if.end" [video_gray_live.cpp:100]   --->   Operation 136 'phi' 'region_mask_accum_loc_3' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 137 [1/2] (1.00ns)   --->   "%write_ln115 = write void @_ssdm_op_Write.axis.volatile.i24P0A.i3P0A.i3P0A.i1P0A.i1P0A.i1P0A.i1P0A, i24 %out_stream_V_data_V, i3 %out_stream_V_keep_V, i3 %out_stream_V_strb_V, i1 %out_stream_V_user_V, i1 %out_stream_V_last_V, i1 %out_stream_V_id_V, i1 %out_stream_V_dest_V, i24 %sext_ln48, i3 %p_keep, i3 %p_strb, i1 %p_user, i1 %p_last, i1 %p_id, i1 %p_dest" [video_gray_live.cpp:115]   --->   Operation 137 'write' 'write_ln115' <Predicate = true> <Delay = 1.00> <CoreInst = "axis">   --->   Core 115 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 138 [1/1] (1.58ns)   --->   "%store_ln120 = store i10 0, i10 %y" [video_gray_live.cpp:120]   --->   Operation 138 'store' 'store_ln120' <Predicate = (icmp_ln117 & icmp_ln119)> <Delay = 1.58>
+ST_3 : Operation 139 [1/1] (0.00ns)   --->   "%br_ln122 = br i1 %first_frame_loc_0_load, void %if.else118, void %if.then114" [video_gray_live.cpp:122]   --->   Operation 139 'br' 'br_ln122' <Predicate = (icmp_ln117 & icmp_ln119)> <Delay = 0.00>
+ST_3 : Operation 140 [1/1] (1.58ns)   --->   "%store_ln127 = store i16 %motion_count_accum_loc_3, i16 %motion_count_latched" [video_gray_live.cpp:127]   --->   Operation 140 'store' 'store_ln127' <Predicate = (!first_frame_loc_0_load & icmp_ln117 & icmp_ln119)> <Delay = 1.58>
+ST_3 : Operation 141 [1/1] (1.58ns)   --->   "%store_ln128 = store i9 %region_mask_accum_loc_3, i9 %region_mask_latched" [video_gray_live.cpp:128]   --->   Operation 141 'store' 'store_ln128' <Predicate = (!first_frame_loc_0_load & icmp_ln117 & icmp_ln119)> <Delay = 1.58>
+ST_3 : Operation 142 [1/1] (0.00ns)   --->   "%br_ln0 = br void %if.end119"   --->   Operation 142 'br' 'br_ln0' <Predicate = (!first_frame_loc_0_load & icmp_ln117 & icmp_ln119)> <Delay = 0.00>
+ST_3 : Operation 143 [1/1] (1.58ns)   --->   "%store_ln123 = store i16 0, i16 %motion_count_latched" [video_gray_live.cpp:123]   --->   Operation 143 'store' 'store_ln123' <Predicate = (first_frame_loc_0_load & icmp_ln117 & icmp_ln119)> <Delay = 1.58>
+ST_3 : Operation 144 [1/1] (1.58ns)   --->   "%store_ln124 = store i9 0, i9 %region_mask_latched" [video_gray_live.cpp:124]   --->   Operation 144 'store' 'store_ln124' <Predicate = (first_frame_loc_0_load & icmp_ln117 & icmp_ln119)> <Delay = 1.58>
+ST_3 : Operation 145 [1/1] (0.00ns)   --->   "%store_ln125 = store i1 0, i1 %first_frame" [video_gray_live.cpp:125]   --->   Operation 145 'store' 'store_ln125' <Predicate = (first_frame_loc_0_load & icmp_ln117 & icmp_ln119)> <Delay = 0.00>
+ST_3 : Operation 146 [1/1] (0.00ns)   --->   "%br_ln126 = br void %if.end119" [video_gray_live.cpp:126]   --->   Operation 146 'br' 'br_ln126' <Predicate = (first_frame_loc_0_load & icmp_ln117 & icmp_ln119)> <Delay = 0.00>
+ST_3 : Operation 147 [1/1] (1.58ns)   --->   "%store_ln0 = store i1 0, i1 %first_frame_loc_0"   --->   Operation 147 'store' 'store_ln0' <Predicate = (icmp_ln117 & icmp_ln119)> <Delay = 1.58>
+ST_3 : Operation 148 [1/1] (0.00ns)   --->   "%region_mask_latched_load = load i9 %region_mask_latched" [video_gray_live.cpp:139]   --->   Operation 148 'load' 'region_mask_latched_load' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 149 [1/1] (0.00ns)   --->   "%motion_count_latched_load = load i16 %motion_count_latched" [video_gray_live.cpp:140]   --->   Operation 149 'load' 'motion_count_latched_load' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 150 [1/1] (0.00ns)   --->   "%tmp_2 = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i9.i16, i9 %region_mask_latched_load, i16 %motion_count_latched_load" [video_gray_live.cpp:139]   --->   Operation 150 'bitconcatenate' 'tmp_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 151 [1/1] (0.00ns)   --->   "%zext_ln139 = zext i25 %tmp_2" [video_gray_live.cpp:139]   --->   Operation 151 'zext' 'zext_ln139' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 152 [1/1] (0.00ns)   --->   "%write_ln138 = write void @_ssdm_op_Write.ap_none.volatile.i32P0A, i32 %motion_count_out, i32 %zext_ln139" [video_gray_live.cpp:138]   --->   Operation 152 'write' 'write_ln138' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 153 [1/1] (1.58ns)   --->   "%store_ln99 = store i16 %motion_count_accum_loc_3, i16 %motion_count_accum_loc_0" [video_gray_live.cpp:99]   --->   Operation 153 'store' 'store_ln99' <Predicate = true> <Delay = 1.58>
+ST_3 : Operation 154 [1/1] (1.58ns)   --->   "%store_ln100 = store i9 %region_mask_accum_loc_3, i9 %region_mask_accum_loc_0" [video_gray_live.cpp:100]   --->   Operation 154 'store' 'store_ln100' <Predicate = true> <Delay = 1.58>
+ST_3 : Operation 155 [1/1] (0.00ns)   --->   "%br_ln46 = br void %while.body" [video_gray_live.cpp:46]   --->   Operation 155 'br' 'br_ln46' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 1.588ns
+The critical path consists of the following:
+	'alloca' operation 10 bit ('y_loc_0') [28]  (0.000 ns)
+	'store' operation 0 bit ('store_ln65', video_gray_live.cpp:65) of variable 'y_load', video_gray_live.cpp:65 on local variable 'y_loc_0' [56]  (1.588 ns)
+
+ <State 2>: 7.058ns
+The critical path consists of the following:
+	axis read operation ('empty', video_gray_live.cpp:48) on port 'in_stream_V_data_V' (video_gray_live.cpp:48) [68]  (1.000 ns)
+	'store' operation 0 bit ('store_ln53', video_gray_live.cpp:53) of constant 0 on static variable 'addr' [83]  (1.588 ns)
+	'load' operation 16 bit ('addr_load', video_gray_live.cpp:66) on static variable 'addr' [103]  (0.000 ns)
+	'add' operation 16 bit ('add_ln108', video_gray_live.cpp:108) [150]  (2.077 ns)
+	'select' operation 16 bit ('select_ln105', video_gray_live.cpp:105) [151]  (0.805 ns)
+	'store' operation 0 bit ('store_ln106', video_gray_live.cpp:106) of variable 'select_ln105', video_gray_live.cpp:105 on static variable 'addr' [152]  (1.588 ns)
+
+ <State 3>: 12.880ns
+The critical path consists of the following:
+	'icmp' operation 1 bit ('icmp_ln92', video_gray_live.cpp:92) [121]  (1.639 ns)
+	'select' operation 4 bit ('region_idx', video_gray_live.cpp:92) [122]  (1.024 ns)
+	multiplexor before 'phi' operation 4 bit ('region_idx') with incoming values : ('region_idx', video_gray_live.cpp:92) ('select_ln70_1_cast', video_gray_live.cpp:84) ('select_ln70_cast', video_gray_live.cpp:76) [137]  (2.065 ns)
+	'phi' operation 4 bit ('region_idx') with incoming values : ('region_idx', video_gray_live.cpp:92) ('select_ln70_1_cast', video_gray_live.cpp:84) ('select_ln70_cast', video_gray_live.cpp:76) [137]  (0.000 ns)
+	'shl' operation 9 bit ('shl_ln100', video_gray_live.cpp:100) [141]  (2.397 ns)
+	'or' operation 9 bit ('or_ln100', video_gray_live.cpp:100) [142]  (0.990 ns)
+	multiplexor before 'phi' operation 16 bit ('motion_count_accum_loc_2', video_gray_live.cpp:99) with incoming values : ('motion_count_accum_loc_0_load') ('add_ln99', video_gray_live.cpp:99) [146]  (1.588 ns)
+	'phi' operation 16 bit ('motion_count_accum_loc_2', video_gray_live.cpp:99) with incoming values : ('motion_count_accum_loc_0_load') ('add_ln99', video_gray_live.cpp:99) [146]  (0.000 ns)
+	multiplexor before 'phi' operation 16 bit ('motion_count_accum_loc_3', video_gray_live.cpp:99) with incoming values : ('motion_count_accum_loc_0_load') ('add_ln99', video_gray_live.cpp:99) [155]  (1.588 ns)
+	'phi' operation 16 bit ('motion_count_accum_loc_3', video_gray_live.cpp:99) with incoming values : ('motion_count_accum_loc_0_load') ('add_ln99', video_gray_live.cpp:99) [155]  (0.000 ns)
+	'store' operation 0 bit ('store_ln127', video_gray_live.cpp:127) of variable 'motion_count_accum_loc_3', video_gray_live.cpp:99 on static variable 'motion_count_latched' [178]  (1.588 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
