@@ -1,7 +1,7 @@
 # Real-Time Threshold Video and Motion Detection Reporting IP for PYNQ
 
 ## Repository URL
-**GitHub repository:** `https://github.com/nicho1210/HardWareDesign_final.git`
+**GitHub repository:** `https://github.com/nicho1210/final_sub_hw.git`
 
 ### Notes for grader
 This repository contains the **final HLS IP source at the root level** together with a matching header and testbench.  
@@ -41,7 +41,7 @@ The final design outputs:
 - a **stable thresholded video** on HDMI output, and
 - **motion detection results through UART**, including:
   - the total motion count for the frame, and
-  - which of the **9 screen regions** contain motion.
+  - which of the **16 screen regions** contain motion.
 
 Rather than directly drawing the motion mask on the HDMI output, the final design separates the system into:
 - a **stable real-time video path**, and
@@ -60,12 +60,12 @@ The system takes live HDMI input and performs the following in real time:
 - store compact previous-frame state in FPGA memory
 - compare current and previous binary frame samples
 - count how many motion blocks changed
-- determine which of the **3×3 screen regions** contain motion
+- determine which of the **4×4 screen regions** contain motion
 - send the motion results to the PS and print them through UART
 
 ### Final output behavior
 - **HDMI output:** thresholded image
-- **UART output:** per-frame motion count and active motion regions (1–9)
+- **UART output:** per-frame motion count and active motion regions (1–16)
 
 ---
 
@@ -92,16 +92,16 @@ This repository is primarily focused on:
 
 ### Original target
 The original goal was to build a real-time HDMI motion detection IP that could:
-- compare the current frame with the previous frame,
-- generate a motion mask,
-- and overlay or display the motion result directly on the HDMI output.
+- compare the current frame with the previous frame
+- generate a motion mask
+- and overlay or display the motion result directly on the HDMI output
 
 ### Final implementation
 The final system provides:
 - stable HDMI threshold output
 - background previous-frame motion analysis
 - packed motion reporting
-- 1–9 region-based motion localization
+- 1–16 region-based motion localization
 
 ### Important design lesson
 During development, we found that:
@@ -145,12 +145,11 @@ This signal is intended to connect to **AXI GPIO**, then be read by the PS and p
 ### 5.4 Packed message format
 The 32-bit motion information word is defined as:
 - **[15:0]** = `motion_count`
-- **[24:16]** = `region_mask`
-- **[31:25]** = reserved
+- **[31:16]** = `region_mask`
 
 where:
 - `motion_count` = total number of changed sampled blocks in the frame
-- `region_mask` = 9-bit flag showing which of the 3×3 screen regions contain motion
+- `region_mask` = 16-bit flag showing which of the 4×4 screen regions contain motion
 
 ### 5.5 Processing-system interaction
 The PS is responsible for:
@@ -182,17 +181,27 @@ The UART prints:
 - whether motion is detected
 - which screen regions contain motion
 
+The software prints the region result in two human-readable forms:
+1. an **index grid** using region numbers 1–16
+2. a **binary grid** showing the same information as 0/1 values
+
 Example:
 
 ```text
-[HB] app alive=12, rx_lock=1, tx_lock=1, motion_count=428, motion=1, regions=2,5,9
+[HB] app alive=12, rx_lock=1, tx_lock=1, motion_count=428, motion=1
+motion grid:
+  Index grid              |    Binary grid
+   0  2  0  0             |     0  1  0  0
+   0  0  7  0             |     0  0  1  0
+   0  0 11 12             |     0  0  1  1
+   0  0  0 16             |     0  0  0  1
 ```
 
 This means:
 - the video system is alive
 - input and output are locked
 - 428 motion blocks changed
-- motion was detected in regions 2, 5, and 9
+- motion was detected in regions 2, 7, 11, 12, and 16
 
 ---
 
@@ -248,7 +257,7 @@ Compares current sampled binary block state with previous-frame binary state usi
 ### Module E: Motion summary logic
 Accumulates:
 - frame-level motion count
-- 3×3 region mask
+- **4×4 region mask**
 
 ### Module F: Side-channel export path
 Packs motion results into a 32-bit word and exports them for PS-side reading.
@@ -303,7 +312,7 @@ At the same time, the IP also:
 4. computes whether that block changed
 5. updates:
    - total motion count
-   - region mask (1–9)
+   - region mask (1–16)
 6. stores the current block value for the next frame
 
 This part is not drawn on the video output. Instead, it is exported through the side-channel and then reported by software.
@@ -349,16 +358,17 @@ If `motion = 1`, then `motion_count` is incremented.
 
 This gives the total number of changed sampled blocks in the frame.
 
-### 11.5 Region detection (1–9)
-The screen is divided into a 3×3 grid:
+### 11.5 Region detection (1–16)
+The screen is divided into a 4×4 grid:
 
 ```text
-1 2 3
-4 5 6
-7 8 9
+ 1  2  3  4
+ 5  6  7  8
+ 9 10 11 12
+13 14 15 16
 ```
 
-If motion occurs in a block inside a region, that region’s bit is set in a 9-bit mask.
+If motion occurs in a block inside a region, that region’s bit is set in a 16-bit mask.
 
 Thus, the system reports:
 - how much motion occurred
@@ -380,7 +390,7 @@ The final testbench checks:
 The intended expected behavior is:
 - frame 1 reports zero motion
 - frame 2 reports `motion_count = 1`
-- frame 2 reports the region-5 bit set
+- frame 2 reports the **region-11 bit** set
 
 ### 12.2 Hardware verification
 Board-level checks used during development included:
@@ -433,7 +443,7 @@ The final implementation instead met the following practical goals:
 - Stable HDMI threshold output
 - Background previous-frame motion detection
 - Motion count per frame
-- 1–9 region detection
+- **1–16 region detection**
 - Motion summary export for PS/UART reporting
 
 ### What does not yet work reliably
@@ -452,7 +462,8 @@ In the final board-level system, the PS software performs:
 - UART reporting of:
   - motion count
   - motion detected / not detected
-  - active 1–9 regions
+  - active **1–16 regions**
+  - index-grid and binary-grid visualization
 
 The PS does **not** process the video stream itself. All video processing is done in programmable logic.
 
