@@ -57,7 +57,6 @@ static void print_motion_grid(u32 mask)
     for (int r = 0; r < 4; r++) {
         xil_printf("  ");
 
-        // 左邊：1~16 / 0
         for (int c = 0; c < 4; c++) {
             int idx = r * 4 + c;   // 0..15
             int num = idx + 1;     // 1..16
@@ -79,7 +78,6 @@ static void print_motion_grid(u32 mask)
 
         xil_printf("    |    ");
 
-        // 右邊：0/1，但欄寬跟左邊一致
         for (int c = 0; c < 4; c++) {
             int idx = r * 4 + c;
 
